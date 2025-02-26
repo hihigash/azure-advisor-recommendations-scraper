@@ -1,0 +1,837 @@
+[
+  {
+    "service_en": "In this article",
+    "service_ja": "この記事の内容",
+    "recommendations": []
+  },
+  {
+    "service_en": "AI + machine learning",
+    "service_ja": "AI + 機械学習",
+    "recommendations": [
+      {
+        "recommendation_en": "Upgrade to the latest version of the Immersive Reader SDK",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-version-of-the-immersive-reader-sdk",
+        "recommendation_ja": "イマーシブ リーダー SDK の最新バージョンにアップグレードする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-version-of-the-immersive-reader-sdk"
+      },
+      {
+        "recommendation_en": "Upgrade to the latest version of the Immersive Reader SDK",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-version-of-the-immersive-reader-sdk-1",
+        "recommendation_ja": "イマーシブ リーダー SDK の最新バージョンにアップグレードする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-version-of-the-immersive-reader-sdk-1"
+      }
+    ]
+  },
+  {
+    "service_en": "Analytics",
+    "service_ja": "分析",
+    "recommendations": [
+      {
+        "recommendation_en": "Reduce the cache policy on your Data Explorer tables",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#reduce-the-cache-policy-on-your-data-explorer-tables",
+        "recommendation_ja": "Data Explorer テーブルに対するキャッシュ ポリシーを減らす",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#reduce-the-cache-policy-on-your-data-explorer-tables"
+      }
+    ]
+  },
+  {
+    "service_en": "Compute",
+    "service_ja": "Compute",
+    "recommendations": [
+      {
+        "recommendation_en": "Update your outdated Azure Spring Apps SDK to the latest version",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-your-outdated-azure-spring-apps-sdk-to-the-latest-version",
+        "recommendation_ja": "以前の Azure Spring Apps SDK を最新バージョンに更新する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-your-outdated-azure-spring-apps-sdk-to-the-latest-version"
+      },
+      {
+        "recommendation_en": "Update Azure Spring Apps API Version",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-spring-apps-api-version",
+        "recommendation_ja": "Azure Spring Apps API バージョンを更新する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-spring-apps-api-version"
+      },
+      {
+        "recommendation_en": "New HCX version is available for upgrade",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#new-hcx-version-is-available-for-upgrade",
+        "recommendation_ja": "新しい HCX バージョンにアップグレードできます",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#new-hcx-version-is-available-for-upgrade"
+      },
+      {
+        "recommendation_en": "Recreate your pool to get the latest node agent features and fixes",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#recreate-your-pool-to-get-the-latest-node-agent-features-and-fixes",
+        "recommendation_ja": "プールを再作成してノード エージェントの最新の機能と修正プログラムを取得する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#recreate-your-pool-to-get-the-latest-node-agent-features-and-fixes"
+      },
+      {
+        "recommendation_en": "Delete and recreate your pool to remove a deprecated internal component",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#delete-and-recreate-your-pool-to-remove-a-deprecated-internal-component",
+        "recommendation_ja": "プールを削除して再作成し、非推奨の内部コンポーネントを削除する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#delete-and-recreate-your-pool-to-remove-a-deprecated-internal-component"
+      },
+      {
+        "recommendation_en": "Upgrade to the latest API version to ensure your Batch account remains operational",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-api-version-to-ensure-your-batch-account-remains-operational",
+        "recommendation_ja": "最新の API バージョンにアップグレードして、引き続き Batch アカウントが利用できるようにしてください",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-api-version-to-ensure-your-batch-account-remains-operational"
+      },
+      {
+        "recommendation_en": "Delete and recreate your pool using a different VM size",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#delete-and-recreate-your-pool-using-a-different-vm-size",
+        "recommendation_ja": "プレールを削除して別の VM サイズを使用して再作成する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#delete-and-recreate-your-pool-using-a-different-vm-size"
+      },
+      {
+        "recommendation_en": "Recreate your pool with a new image",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#recreate-your-pool-with-a-new-image",
+        "recommendation_ja": "新しいイメージでプールを再作成する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#recreate-your-pool-with-a-new-image"
+      },
+      {
+        "recommendation_en": "Increase the number of compute resources you can deploy by 10 vCPU",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#increase-the-number-of-compute-resources-you-can-deploy-by-10-vcpu",
+        "recommendation_ja": "デプロイできるコンピューティング リソースの数を 10 vCPU 増やす",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#increase-the-number-of-compute-resources-you-can-deploy-by-10-vcpu"
+      },
+      {
+        "recommendation_en": "Add Azure Monitor to your virtual machine (VM) labeled as production",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#add-azure-monitor-to-your-virtual-machine-vm-labeled-as-production",
+        "recommendation_ja": "運用環境としてラベル付けされた仮想マシン (VM) に Azure Monitor を追加する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#add-azure-monitor-to-your-virtual-machine-vm-labeled-as-production"
+      },
+      {
+        "recommendation_en": "Excessive NTP client traffic caused by frequent DNS lookups and NTP sync for new servers, which happens often on some global NTP servers",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#excessive-ntp-client-traffic-caused-by-frequent-dns-lookups-and-ntp-sync-for-new-servers-which-happens-often-on-some-global-ntp-servers",
+        "recommendation_ja": "新しいサーバーに対する頻繁な DNS ルックアップと NTP 同期によって引き起こされる過剰な NTP クライアント トラフィック。これは、一部のグローバル NTP サーバーで発生することがよくあります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#excessive-ntp-client-traffic-caused-by-frequent-dns-lookups-and-ntp-sync-for-new-servers-which-happens-often-on-some-global-ntp-servers"
+      },
+      {
+        "recommendation_en": "An Azure environment update has been rolled out that might affect your Checkpoint Firewall",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#an-azure-environment-update-has-been-rolled-out-that-might-affect-your-checkpoint-firewall",
+        "recommendation_ja": "Azure 環境の更新プログラムがロールアウトされましたが、チェックポイント ファイアウォールに影響している可能性があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#an-azure-environment-update-has-been-rolled-out-that-might-affect-your-checkpoint-firewall"
+      },
+      {
+        "recommendation_en": "The iControl REST interface has an unauthenticated remote command execution vulnerability",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#the-icontrol-rest-interface-has-an-unauthenticated-remote-command-execution-vulnerability",
+        "recommendation_ja": "iControl REST インターフェイスには、認証されていないリモート コマンド実行の脆弱性があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#the-icontrol-rest-interface-has-an-unauthenticated-remote-command-execution-vulnerability"
+      },
+      {
+        "recommendation_en": "NVA Accelerated Networking enabled but potentially not working",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#nva-accelerated-networking-enabled-but-potentially-not-working",
+        "recommendation_ja": "NVA 高速ネットワークが有効になっていますが、動作していない可能性があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#nva-accelerated-networking-enabled-but-potentially-not-working"
+      },
+      {
+        "recommendation_en": "Virtual machines with Citrix Application Delivery Controller (ADC) and accelerated networking enabled might disconnect during maintenance operation",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#virtual-machines-with-citrix-application-delivery-controller-adc-and-accelerated-networking-enabled-might-disconnect-during-maintenance-operation",
+        "recommendation_ja": "Citrix Application Delivery Controller (ADC) と高速ネットワークを有効にした仮想マシンは、メンテナンス操作中に切断されることがあります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#virtual-machines-with-citrix-application-delivery-controller-adc-and-accelerated-networking-enabled-might-disconnect-during-maintenance-operation"
+      },
+      {
+        "recommendation_en": "Update your outdated Azure Spring Cloud SDK to the latest version",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-your-outdated-azure-spring-cloud-sdk-to-the-latest-version",
+        "recommendation_ja": "以前の Azure Spring Cloud SDK を最新バージョンに更新する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-your-outdated-azure-spring-cloud-sdk-to-the-latest-version"
+      },
+      {
+        "recommendation_en": "Update Azure Spring Cloud API Version",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-spring-cloud-api-version",
+        "recommendation_ja": "Azure Spring Cloud API バージョンを更新する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-spring-cloud-api-version"
+      }
+    ]
+  },
+  {
+    "service_en": "Containers",
+    "service_ja": "Containers",
+    "recommendations": [
+      {
+        "recommendation_en": "The API version you use for Microsoft.App is deprecated. Use the latest API version.",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#the-api-version-you-use-for-microsoftapp-is-deprecated-use-the-latest-api-version",
+        "recommendation_ja": "Microsoft.App に使用している API バージョンは非推奨です。 最新の API バージョンを使用してください。",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#the-api-version-you-use-for-microsoftapp-is-deprecated-use-the-latest-api-version"
+      },
+      {
+        "recommendation_en": "Update cluster's service principal",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-clusters-service-principal",
+        "recommendation_ja": "クラスターのサービス プリンシパルの更新",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-clusters-service-principal"
+      },
+      {
+        "recommendation_en": "Monitoring addon workspace is deleted",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#monitoring-addon-workspace-is-deleted",
+        "recommendation_ja": "監視アドオン ワークスペースが削除されます",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#monitoring-addon-workspace-is-deleted"
+      },
+      {
+        "recommendation_en": "Deprecated Kubernetes API in 1.16 is found",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#deprecated-kubernetes-api-in-116-is-found",
+        "recommendation_ja": "Kubernetes 1.16 では非推奨の API が見つかりました",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#deprecated-kubernetes-api-in-116-is-found"
+      },
+      {
+        "recommendation_en": "Enable the Cluster Autoscaler",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-the-cluster-autoscaler",
+        "recommendation_ja": "クラスター オートスケーラーを有効にする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-the-cluster-autoscaler"
+      },
+      {
+        "recommendation_en": "The AKS node pool subnet is full",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#the-aks-node-pool-subnet-is-full",
+        "recommendation_ja": "AKS ノード プールのサブネットがいっぱいです",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#the-aks-node-pool-subnet-is-full"
+      },
+      {
+        "recommendation_en": "Expired ETCD cert",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#expired-etcd-cert",
+        "recommendation_ja": "期限切れの ETCD 証明書",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#expired-etcd-cert"
+      },
+      {
+        "recommendation_en": "Disable the Application Routing Addon",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-the-application-routing-addon",
+        "recommendation_ja": "アプリケーション ルーティング アドオンを無効にする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-the-application-routing-addon"
+      },
+      {
+        "recommendation_en": "Use Ephemeral OS disk",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-ephemeral-os-disk",
+        "recommendation_ja": "エフェメラル OS ディスクを使用する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#use-ephemeral-os-disk"
+      },
+      {
+        "recommendation_en": "Outdated Azure Linux (Mariner) OS SKUs Found",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#outdated-azure-linux-mariner-os-skus-found",
+        "recommendation_ja": "古い Azure Linux (Mariner) OS SKU が見つかった",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#outdated-azure-linux-mariner-os-skus-found"
+      },
+      {
+        "recommendation_en": "Free and Standard tiers for AKS control plane management",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#free-and-standard-tiers-for-aks-control-plane-management",
+        "recommendation_ja": "AKS コントロール プレーン管理の Free および Standard レベル",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#free-and-standard-tiers-for-aks-control-plane-management"
+      },
+      {
+        "recommendation_en": "Deprecated Kubernetes API in 1.22 has been found",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#deprecated-kubernetes-api-in-122-has-been-found",
+        "recommendation_ja": "Kubernetes 1.22 では非推奨の API が見つかりました",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#deprecated-kubernetes-api-in-122-has-been-found"
+      }
+    ]
+  },
+  {
+    "service_en": "Databases",
+    "service_ja": "データベース",
+    "recommendations": [
+      {
+        "recommendation_en": "Azure SQL IaaS Agent must be installed in full mode",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-sql-iaas-agent-must-be-installed-in-full-mode",
+        "recommendation_ja": "完全モードで Azure SQL IaaS Agent をインストールする必要があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-sql-iaas-agent-must-be-installed-in-full-mode"
+      },
+      {
+        "recommendation_en": "Install SQL best practices assessment on your SQL VM",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#install-sql-best-practices-assessment-on-your-sql-vm",
+        "recommendation_ja": "SQL VM に SQL ベスト プラクティス アセスメントをインストールする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#install-sql-best-practices-assessment-on-your-sql-vm"
+      },
+      {
+        "recommendation_en": "Migrate Azure Cosmos DB attachments to Azure Blob Storage",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-cosmos-db-attachments-to-azure-blob-storage",
+        "recommendation_ja": "Azure Cosmos DB の添付ファイルを Azure Blob Storage に移行する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-cosmos-db-attachments-to-azure-blob-storage"
+      },
+      {
+        "recommendation_en": "Improve resiliency by migrating your Azure Cosmos DB accounts to continuous backup",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#improve-resiliency-by-migrating-your-azure-cosmos-db-accounts-to-continuous-backup",
+        "recommendation_ja": "Azure Cosmos DB アカウントを継続的バックアップに移行して、回復性を向上させる",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#improve-resiliency-by-migrating-your-azure-cosmos-db-accounts-to-continuous-backup"
+      },
+      {
+        "recommendation_en": "Enable partition merge to configure an optimal database partition layout",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-partition-merge-to-configure-an-optimal-database-partition-layout",
+        "recommendation_ja": "パーティションのマージを有効にして、最適なデータベース パーティション レイアウトを構成する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-partition-merge-to-configure-an-optimal-database-partition-layout"
+      },
+      {
+        "recommendation_en": "Your Azure Database for MySQL - Flexible Server is vulnerable using weak, deprecated TLSv1 or TLSv1.1 protocols",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#your-azure-database-for-mysql---flexible-server-is-vulnerable-using-weak-deprecated-tlsv1-or-tlsv11-protocols",
+        "recommendation_ja": "お使いの Azure Database for MySQL - フレキシブル サーバーは、弱い、非推奨の TLSv1 または TLSv1.1 プロトコルを使用しており脆弱です",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#your-azure-database-for-mysql---flexible-server-is-vulnerable-using-weak-deprecated-tlsv1-or-tlsv11-protocols"
+      },
+      {
+        "recommendation_en": "Optimize or partition tables in your database which has huge tablespace size",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#optimize-or-partition-tables-in-your-database-which-has-huge-tablespace-size",
+        "recommendation_ja": "膨大なテーブルスペース サイズを持つデータベース内のテーブルを最適化またはパーティション分割する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#optimize-or-partition-tables-in-your-database-which-has-huge-tablespace-size"
+      },
+      {
+        "recommendation_en": "Enable storage autogrow for MySQL Flexible Server",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-storage-autogrow-for-mysql-flexible-server",
+        "recommendation_ja": "MySQL フレキシブル サーバーのストレージ自動拡張を有効にする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-storage-autogrow-for-mysql-flexible-server"
+      },
+      {
+        "recommendation_en": "Apply resource delete lock",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#apply-resource-delete-lock",
+        "recommendation_ja": "リソース削除ロックを適用する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#apply-resource-delete-lock"
+      },
+      {
+        "recommendation_en": "Add firewall rules for MySQL Flexible Server",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#add-firewall-rules-for-mysql-flexible-server",
+        "recommendation_ja": "MySQL フレキシブル サーバーのファイアウォール規則を追加する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#add-firewall-rules-for-mysql-flexible-server"
+      },
+      {
+        "recommendation_en": "Injecting a cache into a virtual network (VNet) imposes complex requirements on your network configuration, which is a common source of incidents affecting customer applications",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#injecting-a-cache-into-a-virtual-network-vnet-imposes-complex-requirements-on-your-network-configuration-which-is-a-common-source-of-incidents-affecting-customer-applications",
+        "recommendation_ja": "仮想ネットワーク (VNet) にキャッシュを挿入すると、ネットワーク構成に複雑な要件が課せられます。これは顧客のアプリケーションに影響を与えるインシデントの典型的な原因です",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#injecting-a-cache-into-a-virtual-network-vnet-imposes-complex-requirements-on-your-network-configuration-which-is-a-common-source-of-incidents-affecting-customer-applications"
+      },
+      {
+        "recommendation_en": "Support for TLS versions 1.0 and 1.1 is retiring on September 30, 2024",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#support-for-tls-versions-10-and-11-is-retiring-on-september-30-2024",
+        "recommendation_ja": "TLS バージョン 1.0 および 1.1 のサポートは、2024 年 9 月 30 日に廃止されます",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#support-for-tls-versions-10-and-11-is-retiring-on-september-30-2024"
+      },
+      {
+        "recommendation_en": "TLS versions 1.0 and 1.1 are known to be susceptible to security attacks, and have other Common Vulnerabilities and Exposures (CVE) weaknesses",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#tls-versions-10-and-11-are-known-to-be-susceptible-to-security-attacks-and-have-other-common-vulnerabilities-and-exposures-cve-weaknesses",
+        "recommendation_ja": "TLS バージョン 1.0 と 1.1 は、セキュリティ攻撃を受けやすく、またその他の共通脆弱性識別子 (CVE) の弱点を持つことが知られています",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#tls-versions-10-and-11-are-known-to-be-susceptible-to-security-attacks-and-have-other-common-vulnerabilities-and-exposures-cve-weaknesses"
+      },
+      {
+        "recommendation_en": "Cloud service caches are being retired in August 2024. Migrate before then to avoid any problems.",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#cloud-service-caches-are-being-retired-in-august-2024-migrate-before-then-to-avoid-any-problems",
+        "recommendation_ja": "クラウド サービスのキャッシュは 2024 年 8 月に廃止されます。 問題を避けるために、その前に移行してください。",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#cloud-service-caches-are-being-retired-in-august-2024-migrate-before-then-to-avoid-any-problems"
+      },
+      {
+        "recommendation_en": "Redis persistence allows you to persist data stored in a cache so you can reload data from an event that caused data loss.",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#redis-persistence-allows-you-to-persist-data-stored-in-a-cache-so-you-can-reload-data-from-an-event-that-caused-data-loss",
+        "recommendation_ja": "Redis の永続化により、キャッシュに格納されているデータを永続化して、データ損失の原因となったイベントからデータを再度読み込むことができます。",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#redis-persistence-allows-you-to-persist-data-stored-in-a-cache-so-you-can-reload-data-from-an-event-that-caused-data-loss"
+      },
+      {
+        "recommendation_en": "Using persistence with soft delete enabled can increase storage costs.",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#using-persistence-with-soft-delete-enabled-can-increase-storage-costs",
+        "recommendation_ja": "論理的な削除を有効にして永続化を使用すると、ストレージ コストが増加する可能性があります。",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#using-persistence-with-soft-delete-enabled-can-increase-storage-costs"
+      },
+      {
+        "recommendation_en": "You might benefit from using an Enterprise tier cache instance",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#you-might-benefit-from-using-an-enterprise-tier-cache-instance",
+        "recommendation_ja": "Enterprise レベルのキャッシュ インスタンスを使用するとメリットが得られることがあります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#you-might-benefit-from-using-an-enterprise-tier-cache-instance"
+      }
+    ]
+  },
+  {
+    "service_en": "Integration",
+    "service_ja": "統合",
+    "recommendations": [
+      {
+        "recommendation_en": "Use Azure AD-based authentication for more fine-grained control and simplified management",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-azure-ad-based-authentication-for-more-fine-grained-control-and-simplified-management",
+        "recommendation_ja": "Azure AD ベースの認証を使用して、よりきめ細かい制御と簡素化された管理を実現する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#use-azure-ad-based-authentication-for-more-fine-grained-control-and-simplified-management"
+      },
+      {
+        "recommendation_en": "Validate JWT policy is being used with security keys that have insecure key size for validating Json Web Token (JWT).",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#validate-jwt-policy-is-being-used-with-security-keys-that-have-insecure-key-size-for-validating-json-web-token-jwt",
+        "recommendation_ja": "JWT ポリシーが、Json Web Token (JWT) を検証するために安全でないキー サイズを持つセキュリティ キーとともに使用されていることを検証します。",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#validate-jwt-policy-is-being-used-with-security-keys-that-have-insecure-key-size-for-validating-json-web-token-jwt"
+      },
+      {
+        "recommendation_en": "Use self-hosted gateway v2",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-self-hosted-gateway-v2",
+        "recommendation_ja": "セルフホストテッド ゲートウェイ v2 を使用する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#use-self-hosted-gateway-v2"
+      },
+      {
+        "recommendation_en": "Use Configuration API v2 for self-hosted gateways",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-configuration-api-v2-for-self-hosted-gateways",
+        "recommendation_ja": "セルフホステッド ゲートウェイに構成 API v2 を使用する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#use-configuration-api-v2-for-self-hosted-gateways"
+      },
+      {
+        "recommendation_en": "Only allow tracing on subscriptions intended for debugging purposes. Sharing subscription keys with tracing allowed with unauthorized users could lead to disclosure of sensitive information contained in tracing logs such as keys, access tokens, passwords, internal hostnames, and IP addresses.",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#only-allow-tracing-on-subscriptions-intended-for-debugging-purposes-sharing-subscription-keys-with-tracing-allowed-with-unauthorized-users-could-lead-to-disclosure-of-sensitive-information-contained-in-tracing-logs-such-as-keys-access-tokens-passwords-internal-hostnames-and-ip-addresses",
+        "recommendation_ja": "デバッグの目的でのみサブスクリプションのトレースを許可します。 トレースが許可されたサブスクリプション キーを承認されていないユーザーと共有すると、キー、アクセス トークン、パスワード、内部ホスト名、IP アドレスなどのトレース ログに含まれる機密情報が漏えいする可能性があります。",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#only-allow-tracing-on-subscriptions-intended-for-debugging-purposes-sharing-subscription-keys-with-tracing-allowed-with-unauthorized-users-could-lead-to-disclosure-of-sensitive-information-contained-in-tracing-logs-such-as-keys-access-tokens-passwords-internal-hostnames-and-ip-addresses"
+      },
+      {
+        "recommendation_en": "Self-hosted gateway instances were identified that use gateway tokens that expire soon",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#self-hosted-gateway-instances-were-identified-that-use-gateway-tokens-that-expire-soon",
+        "recommendation_ja": "まもなく期限切れになるゲートウェイ トークンを使用しているセルフホステッド ゲートウェイ インスタンスが特定されました",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#self-hosted-gateway-instances-were-identified-that-use-gateway-tokens-that-expire-soon"
+      }
+    ]
+  },
+  {
+    "service_en": "Internet of Things",
+    "service_ja": "モノのインターネット (IoT)",
+    "recommendations": [
+      {
+        "recommendation_en": "IoT Hub Fallback Route Disabled",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#iot-hub-fallback-route-disabled",
+        "recommendation_ja": "IoT ハブのフォールバック ルートが無効になっている",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#iot-hub-fallback-route-disabled"
+      }
+    ]
+  },
+  {
+    "service_en": "Management and governance",
+    "service_ja": "管理とガバナンス",
+    "recommendations": [
+      {
+        "recommendation_en": "Upgrade to Start/Stop VMs v2",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-startstop-vms-v2",
+        "recommendation_ja": "Start/Stop VMs v2 にアップグレードする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-startstop-vms-v2"
+      },
+      {
+        "recommendation_en": "Repair your log alert rule",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#repair-your-log-alert-rule",
+        "recommendation_ja": "ログのアラート ルールを修復する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#repair-your-log-alert-rule"
+      },
+      {
+        "recommendation_en": "Log alert rule was disabled",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#log-alert-rule-was-disabled",
+        "recommendation_ja": "ログのアラート ルールが無効になった",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#log-alert-rule-was-disabled"
+      },
+      {
+        "recommendation_en": "Update Azure Managed Grafana SDK Version",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-managed-grafana-sdk-version",
+        "recommendation_ja": "Azure Managed Grafana SDK のバージョンを更新する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-managed-grafana-sdk-version"
+      },
+      {
+        "recommendation_en": "Switch to Azure Monitor based alerts for backup",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#switch-to-azure-monitor-based-alerts-for-backup",
+        "recommendation_ja": "バックアップ用の Azure Monitor ベースのアラートに切り替える",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#switch-to-azure-monitor-based-alerts-for-backup"
+      }
+    ]
+  },
+  {
+    "service_en": "Networking",
+    "service_ja": "ネットワーク",
+    "recommendations": [
+      {
+        "recommendation_en": "Resolve Certificate Update issue for your Application Gateway",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#resolve-certificate-update-issue-for-your-application-gateway",
+        "recommendation_ja": "Application Gateway の証明書更新の問題を解決する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#resolve-certificate-update-issue-for-your-application-gateway"
+      },
+      {
+        "recommendation_en": "Resolve Azure Key Vault issue for your Application Gateway",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#resolve-azure-key-vault-issue-for-your-application-gateway",
+        "recommendation_ja": "Application Gateway の Azure Key Vault に関する問題を解決する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#resolve-azure-key-vault-issue-for-your-application-gateway"
+      },
+      {
+        "recommendation_en": "Application Gateway doesn't have enough capacity to scale out",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#application-gateway-doesnt-have-enough-capacity-to-scale-out",
+        "recommendation_ja": "アプリケーション ゲートウェイにスケールアウトのための十分な容量がない",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#application-gateway-doesnt-have-enough-capacity-to-scale-out"
+      },
+      {
+        "recommendation_en": "Enable Traffic Analytics to view insights into traffic patterns across Azure resources",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-traffic-analytics-to-view-insights-into-traffic-patterns-across-azure-resources",
+        "recommendation_ja": "Traffic Analytics を有効にして、Azure リソース間のトラフィック パターンに関する分析情報を表示する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-traffic-analytics-to-view-insights-into-traffic-patterns-across-azure-resources"
+      },
+      {
+        "recommendation_en": "Set up staging environments in Azure App Service",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-up-staging-environments-in-azure-app-service",
+        "recommendation_ja": "Azure App Service でステージング環境を設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-up-staging-environments-in-azure-app-service"
+      },
+      {
+        "recommendation_en": "Enforce 'Add or replace a tag on resources' using Azure Policy",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-add-or-replace-a-tag-on-resources-using-azure-policy",
+        "recommendation_ja": "Azure Policy を使用して、\"リソースのタグを追加または置換する\" を適用します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-add-or-replace-a-tag-on-resources-using-azure-policy"
+      },
+      {
+        "recommendation_en": "Enforce 'Allowed locations' using Azure Policy",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-allowed-locations-using-azure-policy",
+        "recommendation_ja": "Azure Policy を使用して、\"許可された場所\" を適用します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-allowed-locations-using-azure-policy"
+      },
+      {
+        "recommendation_en": "Enforce 'Audit VMs that don't use managed disks' using Azure Policy",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-audit-vms-that-dont-use-managed-disks-using-azure-policy",
+        "recommendation_ja": "Azure Policy を使用して、\"マネージド ディスクを使用していない VM を監査する\" ポリシーを適用する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-audit-vms-that-dont-use-managed-disks-using-azure-policy"
+      },
+      {
+        "recommendation_en": "Enforce 'Allowed virtual machine SKUs' using Azure Policy",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-allowed-virtual-machine-skus-using-azure-policy",
+        "recommendation_ja": "Azure Policy を使用して \"許可された仮想マシン SKU\" を適用する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-allowed-virtual-machine-skus-using-azure-policy"
+      },
+      {
+        "recommendation_en": "Enforce 'Inherit a tag from the resource group' using Azure Policy",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-inherit-a-tag-from-the-resource-group-using-azure-policy",
+        "recommendation_ja": "Azure Policy を使用して、\"リソース グループからタグを継承する\" を適用する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#enforce-inherit-a-tag-from-the-resource-group-using-azure-policy"
+      },
+      {
+        "recommendation_en": "Use Azure Lighthouse to simply and securely manage customer subscriptions at scale",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-azure-lighthouse-to-simply-and-securely-manage-customer-subscriptions-at-scale",
+        "recommendation_ja": "Azure Lighthouse を使用して、顧客サブスクリプションを簡単かつ安全に大規模管理します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#use-azure-lighthouse-to-simply-and-securely-manage-customer-subscriptions-at-scale"
+      },
+      {
+        "recommendation_en": "Subscription with more than 10 VNets must be managed using AVNM",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#subscription-with-more-than-10-vnets-must-be-managed-using-avnm",
+        "recommendation_ja": "10 個を超える VNet を持つサブスクリプションは、AVNM を使用して管理する必要があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#subscription-with-more-than-10-vnets-must-be-managed-using-avnm"
+      },
+      {
+        "recommendation_en": "VNet with more than five peerings must be managed using AVNM connectivity configuration",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#vnet-with-more-than-five-peerings-must-be-managed-using-avnm-connectivity-configuration",
+        "recommendation_ja": "ピアリングが 5 つを超える VNet は、AVNM 接続構成を使用して管理する必要があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#vnet-with-more-than-five-peerings-must-be-managed-using-avnm-connectivity-configuration"
+      },
+      {
+        "recommendation_en": "Upgrade NSG flow logs to VNet flow logs",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-nsg-flow-logs-to-vnet-flow-logs",
+        "recommendation_ja": "NSG フロー ログを VNet フロー ログにアップグレードする",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-nsg-flow-logs-to-vnet-flow-logs"
+      },
+      {
+        "recommendation_en": "Migrate Azure Front Door (classic) to Standard/Premium tier",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-front-door-classic-to-standardpremium-tier",
+        "recommendation_ja": "Azure Front Door (クラシック) から Standard/Premium に移行する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-front-door-classic-to-standardpremium-tier"
+      },
+      {
+        "recommendation_en": "Migrate Azure CDN Standard from Microsoft (Classic) to Azure Front Door Standard/Premium tier",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-cdn-standard-from-microsoft-classic-to-azure-front-door-standardpremium-tier",
+        "recommendation_ja": "Azure CDN Standard from Microsoft (クラシック) を Azure Front Door Standard/Premium レベルに移行する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-cdn-standard-from-microsoft-classic-to-azure-front-door-standardpremium-tier"
+      }
+    ]
+  },
+  {
+    "service_en": "SAP for Azure",
+    "service_ja": "Azure 用の SAP",
+    "recommendations": [
+      {
+        "recommendation_en": "Ensure the HANA DB VM type supports the HANA scenario in your SAP workload",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-hana-db-vm-type-supports-the-hana-scenario-in-your-sap-workload",
+        "recommendation_ja": "HANA DB VM の種類が SAP ワークロードの HANA シナリオをサポートしていることを確認する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-hana-db-vm-type-supports-the-hana-scenario-in-your-sap-workload"
+      },
+      {
+        "recommendation_en": "Ensure the Operating system in App VM is supported in combination with DB type in your SAP workload",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-app-vm-is-supported-in-combination-with-db-type-in-your-sap-workload",
+        "recommendation_ja": "アプリ VM のオペレーティング システムが SAP ワークロードの DB の種類との組み合わせでサポートされていることを確認する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-app-vm-is-supported-in-combination-with-db-type-in-your-sap-workload"
+      },
+      {
+        "recommendation_en": "Set the parameter net.ipv4.tcp_keepalive_time to '300' in the Application VM OS in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_keepalive_time-to-300-in-the-application-vm-os-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのアプリケーション VM OS でパラメーター net.ipv4.tcp_keepalive_time を '300' に設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_keepalive_time-to-300-in-the-application-vm-os-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "Ensure the Operating system in DB VM is supported for the DB type in your SAP workload",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-db-vm-is-supported-for-the-db-type-in-your-sap-workload",
+        "recommendation_ja": "SAP ワークロードの DB の種類に対して DB VM のオペレーティング システムがサポートされていることを確認する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-db-vm-is-supported-for-the-db-type-in-your-sap-workload"
+      },
+      {
+        "recommendation_en": "Set the parameter net.ipv4.tcp_retries2 to '15' in the Application VM OS in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_retries2-to-15-in-the-application-vm-os-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのアプリケーション VM OS でパラメーター net.ipv4.tcp_retries2 を '15' に設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_retries2-to-15-in-the-application-vm-os-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "See the parameter net.ipv4.tcp_keepalive_probes to '9' in the Application VM OS in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#see-the-parameter-netipv4tcp_keepalive_probes-to-9-in-the-application-vm-os-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのアプリケーション VM OS でパラメーター net.ipv4.tcp_keepalive_probes を '9' に設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#see-the-parameter-netipv4tcp_keepalive_probes-to-9-in-the-application-vm-os-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "Set the parameter net.ipv4.tcp_tw_recycle to '0' in the Application VM OS in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_tw_recycle-to-0-in-the-application-vm-os-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのアプリケーション VM OS でパラメーター net.ipv4.tcp_tw_recycle を '0' に設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_tw_recycle-to-0-in-the-application-vm-os-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "Ensure the Operating system in ASCS VM is supported in combination with DB type in your SAP workload",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-ascs-vm-is-supported-in-combination-with-db-type-in-your-sap-workload",
+        "recommendation_ja": "ASCS VM のオペレーティング システムが SAP ワークロードの DB の種類との組み合わせでサポートされていることを確認する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-ascs-vm-is-supported-in-combination-with-db-type-in-your-sap-workload"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: All VMs in SAP system must be certified for SAP",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-all-vms-in-sap-system-must-be-certified-for-sap",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: SAP システム内のすべての VM は SAP の認定を受けている必要があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-all-vms-in-sap-system-must-be-certified-for-sap"
+      },
+      {
+        "recommendation_en": "Set the parameter net.ipv4.tcp_retries1 to '3' in the Application VM OS in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_retries1-to-3-in-the-application-vm-os-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのアプリケーション VM OS でパラメーター net.ipv4.tcp_retries1 を '3' に設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_retries1-to-3-in-the-application-vm-os-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "Set the parameter net.ipv4.tcp_tw_reuse to '0' in the Application VM OS in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_tw_reuse-to-0-in-the-application-vm-os-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのアプリケーション VM OS でパラメーター net.ipv4.tcp_tw_reuse を '0' に設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_tw_reuse-to-0-in-the-application-vm-os-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "Set the parameter net.ipv4.tcp_keepalive_intvl to '75' in the Application VM OS in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_keepalive_intvl-to-75-in-the-application-vm-os-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのアプリケーション VM OS でパラメーター net.ipv4.tcp_keepalive_intvl を '75' に設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_keepalive_intvl-to-75-in-the-application-vm-os-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "Ensure Accelerated Networking is enabled on all NICs for improved performance of SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-accelerated-networking-is-enabled-on-all-nics-for-improved-performance-of-sap-workloads",
+        "recommendation_ja": "SAP ワークロードのパフォーマンスを向上させるために、すべての NIC で高速ネットワークが有効になっていることを確認します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-accelerated-networking-is-enabled-on-all-nics-for-improved-performance-of-sap-workloads"
+      },
+      {
+        "recommendation_en": "Ensure Accelerated Networking is enabled on all NICs for improved performance of SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-accelerated-networking-is-enabled-on-all-nics-for-improved-performance-of-sap-workloads-1",
+        "recommendation_ja": "SAP ワークロードのパフォーマンスを向上させるために、すべての NIC で高速ネットワークが有効になっていることを確認します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-accelerated-networking-is-enabled-on-all-nics-for-improved-performance-of-sap-workloads-1"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Ensure Accelerated networking is enabled on all interfaces",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-accelerated-networking-is-enabled-on-all-interfaces",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: すべてのインターフェイスで高速ネットワークが有効になっていることを確認する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-accelerated-networking-is-enabled-on-all-interfaces"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Ensure Accelerated networking is enabled on all interfaces",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-accelerated-networking-is-enabled-on-all-interfaces-1",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: すべてのインターフェイスで高速ネットワークが有効になっていることを確認する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-accelerated-networking-is-enabled-on-all-interfaces-1"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Ensure Accelerated networking is enabled on all interfaces",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-accelerated-networking-is-enabled-on-all-interfaces-2",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: すべてのインターフェイスで高速ネットワークが有効になっていることを確認する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-accelerated-networking-is-enabled-on-all-interfaces-2"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: All VMs in SAP system must be certified for SAP",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-all-vms-in-sap-system-must-be-certified-for-sap-1",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: SAP システム内のすべての VM は SAP の認定を受けている必要があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-all-vms-in-sap-system-must-be-certified-for-sap-1"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: All VMs in SAP system must be certified for SAP",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-all-vms-in-sap-system-must-be-certified-for-sap-2",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: SAP システム内のすべての VM は SAP の認定を受けている必要があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-all-vms-in-sap-system-must-be-certified-for-sap-2"
+      },
+      {
+        "recommendation_en": "Disable fstrim in SLES OS to avoid XFS metadata corruption in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads",
+        "recommendation_ja": "SAP ワークロードでの XFS メタデータの破損を回避するために、SLES OS で fstrim を無効にします",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads"
+      },
+      {
+        "recommendation_en": "Disable fstrim in SLES OS to avoid XFS metadata corruption in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads-1",
+        "recommendation_ja": "SAP ワークロードでの XFS メタデータの破損を回避するために、SLES OS で fstrim を無効にします",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads-1"
+      },
+      {
+        "recommendation_en": "Disable fstrim in SLES OS to avoid XFS metadata corruption in SAP workloads",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads-2",
+        "recommendation_ja": "SAP ワークロードでの XFS メタデータの破損を回避するために、SLES OS で fstrim を無効にします",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads-2"
+      },
+      {
+        "recommendation_en": "For better performance and support, ensure HANA data filesystem type is supported for HANA DB",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-data-filesystem-type-is-supported-for-hana-db",
+        "recommendation_ja": "パフォーマンスとサポートを向上させるには、HANA データ ファイル システムの種類が HANA DB でサポートされていることを確認します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-data-filesystem-type-is-supported-for-hana-db"
+      },
+      {
+        "recommendation_en": "For better performance and support, ensure HANA shared filesystem type is supported for HANA DB",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-shared-filesystem-type-is-supported-for-hana-db",
+        "recommendation_ja": "パフォーマンスとサポートを向上させるには、HANA 共有 ファイル システムの種類が HANA DB でサポートされていることを確認します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-shared-filesystem-type-is-supported-for-hana-db"
+      },
+      {
+        "recommendation_en": "For better performance and support, ensure HANA log filesystem type is supported for HANA DB",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-log-filesystem-type-is-supported-for-hana-db",
+        "recommendation_ja": "パフォーマンスとサポートを向上させるには、HANA ログ ファイル システムの種類が HANA DB でサポートされていることを確認します",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-log-filesystem-type-is-supported-for-hana-db"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Ensure all NICs for a system are attached to the same VNET",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-all-nics-for-a-system-are-attached-to-the-same-vnet",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: システムのすべての NIC を同じ VNET に接続する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-all-nics-for-a-system-are-attached-to-the-same-vnet"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Swap space on HANA systems must be 2 GB",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-swap-space-on-hana-systems-must-be-2-gb",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: HANA システムのスワップ領域は 2 GB にする必要があります",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-swap-space-on-hana-systems-must-be-2-gb"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Ensure all NICs for a system are attached to the same VNET",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-all-nics-for-a-system-are-attached-to-the-same-vnet-1",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: システムのすべての NIC を同じ VNET に接続する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-all-nics-for-a-system-are-attached-to-the-same-vnet-1"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Ensure all NICs for a system are attached to the same VNET",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-all-nics-for-a-system-are-attached-to-the-same-vnet-2",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: システムのすべての NIC を同じ VNET に接続する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-all-nics-for-a-system-are-attached-to-the-same-vnet-2"
+      },
+      {
+        "recommendation_en": "Azure Center for SAP recommendation: Ensure network configuration is optimized for HANA and OS",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-network-configuration-is-optimized-for-hana-and-os",
+        "recommendation_ja": "Azure Center for SAP の推奨事項: HANA と OS 用にネットワーク構成を最適化する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-center-for-sap-recommendation-ensure-network-configuration-is-optimized-for-hana-and-os"
+      }
+    ]
+  },
+  {
+    "service_en": "Storage",
+    "service_ja": "記憶域",
+    "recommendations": [
+      {
+        "recommendation_en": "Create a backup of HSM",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#create-a-backup-of-hsm",
+        "recommendation_ja": "HSM のバックアップを作成する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#create-a-backup-of-hsm"
+      },
+      {
+        "recommendation_en": "Application Volume Group SDK Recommendation",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#application-volume-group-sdk-recommendation",
+        "recommendation_ja": "アプリケーション ボリューム グループ SDK の推奨事項",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#application-volume-group-sdk-recommendation"
+      },
+      {
+        "recommendation_en": "Availability Zone Volumes SDK Recommendation",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#availability-zone-volumes-sdk-recommendation",
+        "recommendation_ja": "可用性ゾーン ボリューム SDK の推奨事項",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#availability-zone-volumes-sdk-recommendation"
+      },
+      {
+        "recommendation_en": "Cross Zone Replication SDK recommendation",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#cross-zone-replication-sdk-recommendation",
+        "recommendation_ja": "クロス ゾーン レプリケーション SDK のレコメンデーション",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#cross-zone-replication-sdk-recommendation"
+      },
+      {
+        "recommendation_en": "Volume Encryption using Customer Managed Keys with Azure Key Vault SDK Recommendation",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#volume-encryption-using-customer-managed-keys-with-azure-key-vault-sdk-recommendation",
+        "recommendation_ja": "Azure Key Vault SDK によるカスタマー マネージド キーを使用したボリューム暗号化の推奨事項",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#volume-encryption-using-customer-managed-keys-with-azure-key-vault-sdk-recommendation"
+      },
+      {
+        "recommendation_en": "Cool Access SDK Recommendation",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#cool-access-sdk-recommendation",
+        "recommendation_ja": "クール アクセス SDK のレコメンデーション",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#cool-access-sdk-recommendation"
+      },
+      {
+        "recommendation_en": "Large Volumes SDK Recommendation",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#large-volumes-sdk-recommendation",
+        "recommendation_ja": "大量の SDK に関するレコメンデーション",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#large-volumes-sdk-recommendation"
+      },
+      {
+        "recommendation_en": "Prevent hitting subscription limit for maximum storage accounts",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#prevent-hitting-subscription-limit-for-maximum-storage-accounts",
+        "recommendation_ja": "最大ストレージ アカウントのサブスクリプション上限への到達を回避する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#prevent-hitting-subscription-limit-for-maximum-storage-accounts"
+      },
+      {
+        "recommendation_en": "Update to newer releases of the Storage Java v12 SDK for better reliability.",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-to-newer-releases-of-the-storage-java-v12-sdk-for-better-reliability",
+        "recommendation_ja": "信頼性を高めるために Storage Java v12 SDK をより新しいリリースに更新します。",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-to-newer-releases-of-the-storage-java-v12-sdk-for-better-reliability"
+      }
+    ]
+  },
+  {
+    "service_en": "Virtual desktop infrastructure",
+    "service_ja": "仮想デスクトップ インフラストラクチャ",
+    "recommendations": [
+      {
+        "recommendation_en": "Permissions missing for start VM on connect",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#permissions-missing-for-start-vm-on-connect",
+        "recommendation_ja": "接続時に VM を起動するためのアクセス許可がありません",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#permissions-missing-for-start-vm-on-connect"
+      },
+      {
+        "recommendation_en": "No validation environment enabled",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#no-validation-environment-enabled",
+        "recommendation_ja": "検証環境が有効になっていません",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#no-validation-environment-enabled"
+      },
+      {
+        "recommendation_en": "Not enough production environments enabled",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#not-enough-production-environments-enabled",
+        "recommendation_ja": "十分な運用環境が有効になっていません",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#not-enough-production-environments-enabled"
+      }
+    ]
+  },
+  {
+    "service_en": "Web",
+    "service_ja": "Web",
+    "recommendations": [
+      {
+        "recommendation_en": "Set up staging environments in Azure App Service",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-up-staging-environments-in-azure-app-service-1",
+        "recommendation_ja": "Azure App Service でステージング環境を設定する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#set-up-staging-environments-in-azure-app-service-1"
+      },
+      {
+        "recommendation_en": "Update Service Connector API Version",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-service-connector-api-version",
+        "recommendation_ja": "Service Connector API のバージョンを更新する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-service-connector-api-version"
+      },
+      {
+        "recommendation_en": "Update Service Connector SDK to the latest version",
+        "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-service-connector-sdk-to-the-latest-version",
+        "recommendation_ja": "サービス コネクタ SDK を最新バージョンに更新する",
+        "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-service-connector-sdk-to-the-latest-version"
+      }
+    ]
+  },
+  {
+    "service_en": "Next steps",
+    "service_ja": "次のステップ",
+    "recommendations": []
+  },
+  {
+    "service_en": "Feedback",
+    "service_ja": "フィードバック",
+    "recommendations": []
+  },
+  {
+    "service_en": "Additional resources",
+    "service_ja": "その他のリソース",
+    "recommendations": []
+  },
+  {
+    "service_en": "Additional resources",
+    "service_ja": "その他のリソース",
+    "recommendations": []
+  }
+]
