@@ -1,10 +1,5 @@
 [
   {
-    "service_en": "In this article",
-    "service_ja": "この記事の内容",
-    "recommendations": []
-  },
-  {
     "service_en": "AI + machine learning",
     "service_ja": "AI + 機械学習",
     "recommendations": [
@@ -813,25 +808,5 @@
         "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-operational-excellence-recommendations#update-service-connector-sdk-to-the-latest-version"
       }
     ]
-  },
-  {
-    "service_en": "Next steps",
-    "service_ja": "次のステップ",
-    "recommendations": []
-  },
-  {
-    "service_en": "Feedback",
-    "service_ja": "フィードバック",
-    "recommendations": []
-  },
-  {
-    "service_en": "Additional resources",
-    "service_ja": "その他のリソース",
-    "recommendations": []
-  },
-  {
-    "service_en": "Additional resources",
-    "service_ja": "その他のリソース",
-    "recommendations": []
   }
 ]
