@@ -1123,7 +1123,7 @@
   },
   {
     "service_en": "Virtual Machines",
-    "service_ja": "Virtual Machines",
+    "service_ja": "仮想マシン",
     "recommendations": [
       {
         "recommendation_en": "Improve data reliability by using Managed Disks",
@@ -1236,25 +1236,25 @@
       {
         "recommendation_en": "Upgrade to Standard SSD OS disk",
         "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-reliability-recommendations#upgrade-to-standard-ssd-os-disk",
-        "recommendation_ja": "Upgrade to Standard SSD OS disk",
+        "recommendation_ja": "Standard SSD OS ディスクへアップグレードする",
         "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations#upgrade-to-standard-ssd-os-disk"
       },
       {
         "recommendation_en": "Migrate workload to D-series or better virtual machine",
         "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-reliability-recommendations#migrate-workload-to-d-series-or-better-virtual-machine",
-        "recommendation_ja": "Migrate workload to D-series or better virtual machine",
+        "recommendation_ja": "ワークロードを D シリーズ以上の仮想マシンに移行する",
         "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations#migrate-workload-to-d-series-or-better-virtual-machine"
       },
       {
         "recommendation_en": "Use Azure Capacity Reservation for virtual machine (VM)",
         "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-reliability-recommendations#use-azure-capacity-reservation-for-virtual-machine-vm",
-        "recommendation_ja": "Use Azure Capacity Reservation for virtual machine (VM)",
+        "recommendation_ja": "仮想マシン (VM) に Azure 容量予約を使用する",
         "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations#use-azure-capacity-reservation-for-virtual-machine-vm"
       },
       {
         "recommendation_en": "Migrate workload to Virtual Machine Scale Sets Flex",
         "recommendation_permalink_en": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-reliability-recommendations#migrate-workload-to-virtual-machine-scale-sets-flex",
-        "recommendation_ja": "Migrate workload to Virtual Machine Scale Sets Flex",
+        "recommendation_ja": "ワークロードを Virtual Machine Scale Sets Flex に移行する",
         "recommendation_permalink_ja": "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations#migrate-workload-to-virtual-machine-scale-sets-flex"
       },
       {
