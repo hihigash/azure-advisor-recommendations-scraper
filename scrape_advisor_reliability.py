@@ -1,66 +1,102 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import sys
 
-# ページの URL（英語版・日本語版）
-url_en = "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-reliability-recommendations"
-url_ja = "https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-reliability-recommendations"
+def fetch_page(url):
+    """
+    指定された URL から HTML コンテンツを取得する
+    """
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.content
+    except requests.RequestException as e:
+        print(f"Error fetching the URL: {e}", file=sys.stderr)
+        return None
 
-# 各ページを取得（エンコーディングを明示的に指定）
-response_en = requests.get(url_en)
-response_en.encoding = 'utf-8'
-response_ja = requests.get(url_ja)
-response_ja.encoding = 'utf-8'
-
-# BeautifulSoup でパース
-soup_en = BeautifulSoup(response_en.text, "html.parser")
-soup_ja = BeautifulSoup(response_ja.text, "html.parser")
-
-# 結果を格納するリスト
-services = []
-
-# ※仮定：サービス名は <h2> タグ、推奨事項は <h4> タグに記載されている
-for service_en in soup_en.find_all("h2"):
-    service_name_en = service_en.get_text(strip=True)
-    
-    # 英語版のサービスに id があれば、それをキーに日本語版を探す
-    service_id = service_en.get("id")
-    if service_id:
-        service_ja_heading = soup_ja.find("h2", id=service_id)
-        service_name_ja = service_ja_heading.get_text(strip=True) if service_ja_heading else service_name_en
-    else:
-        service_name_ja = service_name_en  # id がない場合は同じ名前とする
-
+def parse_html(html):
+    """
+    ページのメインコンテンツから見出しや段落をもとに推奨事項データを抽出する
+    ・h2 タグ: カテゴリ情報として利用 (current_category)
+    ・h4 タグ: Recommendation (推奨事項タイトル)
+      ※ タイトルが "Share via" のものは除外する
+    ・h4 タグ直後の p タグ: Impact, ResourceType, Recommendation ID の各情報を抽出
+         p タグ内は <br> タグで改行されていることを想定して分割する
+    current_category が未設定の場合は、そのレコードをスキップする
+    """
+    soup = BeautifulSoup(html, 'html.parser')
     recommendations = []
-    
-    # サービス見出しの直後から次の <h2> までが当該サービスの推奨事項と仮定
-    sibling = service_en.find_next_sibling()
-    while sibling and sibling.name != "h2":
-        if sibling.name == "h4":
-            # 英語版の推奨事項
-            rec_id = sibling.get("id")
-            rec_en_name = sibling.get_text(strip=True)
-            rec_permalink_en = f"{url_en}#{rec_id}" if rec_id else None
 
-            # 日本語版の対応する推奨事項を id で探す
-            rec_ja_heading = soup_ja.find("h4", id=rec_id) if rec_id else None
-            rec_ja_name = rec_ja_heading.get_text(strip=True) if rec_ja_heading else rec_en_name
-            rec_permalink_ja = f"{url_ja}#{rec_id}" if rec_id else None
+    # ページのメインコンテンツを取得（主に article、main タグをチェック）
+    content = soup.find('article')
+    if not content:
+        content = soup.find('main')
+    if not content:
+        content = soup
 
-            recommendations.append({
-                "recommendation_en": rec_en_name,
-                "recommendation_permalink_en": rec_permalink_en,
-                "recommendation_ja": rec_ja_name,
-                "recommendation_permalink_ja": rec_permalink_ja
-            })
-        sibling = sibling.find_next_sibling()
+    current_category = ""  # h2 タグで更新されるカテゴリ
+    # コンテンツ内の h2, h4, p 要素をドキュメント順にループ
+    for element in content.find_all(['h2', 'h4', 'p']):
+        if element.name == 'h2':
+            # h2 をカテゴリ情報として利用
+            current_category = element.get_text(strip=True)
+        elif element.name == 'h4':
+            recommendation_title = element.get_text(strip=True)
+            # "Share via" は除外する（大文字小文字を区別しない）
+            if recommendation_title.strip().lower() == "share via":
+                continue
 
-    services.append({
-        "service_en": service_name_en,
-        "service_ja": service_name_ja,
-        "recommendations": recommendations
-    })
+            details = {
+                "Recommendation": recommendation_title,
+                "Impact": "",
+                "Category": current_category,
+                "ResourceType": "",
+                "RecommendationID": ""
+            }
+            # h4 の直後の要素から情報を抽出する
+            sibling = element.find_next_sibling()
+            while sibling and sibling.name not in ['h2', 'h4']:
+                if sibling.name == "p":
+                    text = sibling.get_text(strip=True)
+                    if text.startswith("Impact:"):
+                        details["Impact"] = text.replace("Impact:", "").strip()
+                    if text.startswith("ResourceType:"):
+                        lines = sibling.get_text(separator="\n", strip=True).split("\n")
+                        for line in lines:
+                            l = line.strip()
+                            if l.lower().startswith("resourcetype:"):
+                                details["ResourceType"] = l[len("resourcetype:"):].strip()
+                            elif l.lower().startswith("recommendation id:"):
+                                details["RecommendationID"] = l[len("recommendation id:"):].strip()
+                sibling = sibling.find_next_sibling()
+            recommendations.append(details)
+    return recommendations
 
-# JSON に変換して出力
-with open("Reliability.json", "w", encoding="utf-8") as f:
-    json.dump(services, f, ensure_ascii=False, indent=2)
+def save_to_json(data, filename):
+    """
+    抽出したデータを JSON ファイルとして保存する
+    """
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4)
+        print(f"JSON file successfully saved as {filename}")
+    except IOError as e:
+        print(f"Error saving JSON file: {e}", file=sys.stderr)
+
+def main():
+    url = "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-reliability-recommendations"
+    html = fetch_page(url)
+    if not html:
+        sys.exit(1)
+
+    recommendations = parse_html(html)
+    if not recommendations:
+        print("No recommendations found. Exiting.", file=sys.stderr)
+        sys.exit(1)
+
+    filename = "azure_advisor_recommendations_reliability.json"
+    save_to_json(recommendations, filename)
+
+if __name__ == '__main__':
+    main()

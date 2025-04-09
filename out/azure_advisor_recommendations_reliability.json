@@ -1,0 +1,1619 @@
+[
+    {
+        "Recommendation": "Upgrade to the latest ADMA DotNet SDK version",
+        "Impact": "Medium",
+        "Category": "AgFood Platform",
+        "ResourceType": "microsoft.agfoodplatform/farmbeats",
+        "RecommendationID": "77f976ab-59e3-474d-ba04-32a7d41c9cb1"
+    },
+    {
+        "Recommendation": "Upgrade to the latest FarmBeats API version",
+        "Impact": "Medium",
+        "Category": "AgFood Platform",
+        "ResourceType": "microsoft.agfoodplatform/farmbeats",
+        "RecommendationID": "1233e513-ac1c-402d-be94-7133dc37cac6"
+    },
+    {
+        "Recommendation": "Upgrade to the latest ADMA Python SDK version",
+        "Impact": "Medium",
+        "Category": "AgFood Platform",
+        "ResourceType": "microsoft.agfoodplatform/farmbeats",
+        "RecommendationID": "c4ec2fa1-19f4-491f-9311-ca023ee32c38"
+    },
+    {
+        "Recommendation": "Upgrade to the latest ADMA JavaScript SDK version",
+        "Impact": "Medium",
+        "Category": "AgFood Platform",
+        "ResourceType": "microsoft.agfoodplatform/farmbeats",
+        "RecommendationID": "9e49a43a-dbe2-477d-9d34-a4f209617fdb"
+    },
+    {
+        "Recommendation": "Migrate API Management service to stv2 platform",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "3dd24a8c-af06-49c3-9a04-fb5721d7a9bb"
+    },
+    {
+        "Recommendation": "Hostname certificate rotation failed",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "8962964c-a6d6-4c3d-918a-2777f7fbdca7"
+    },
+    {
+        "Recommendation": "The legacy portal was deprecated 3 years ago and retired in October 2023. However, we are seeing active usage of the portal which may cause service disruption soon when we disable it.",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "6124b23c-0d97-4098-9009-79e8c56cbf8c"
+    },
+    {
+        "Recommendation": "Dependency network status check failed",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "53fd1359-ace2-4712-911c-1fc420dd23e8"
+    },
+    {
+        "Recommendation": "SSL/TLS renegotiation blocked",
+        "Impact": "Medium",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "b7316772-5c8f-421f-bed0-d86b0f128e25"
+    },
+    {
+        "Recommendation": "Deploy an Azure API Management instance to multiple Azure regions for increased service availability",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "2e4d65a3-1e77-4759-bcaa-13009484a97e"
+    },
+    {
+        "Recommendation": "Enable and configure autoscale for API Management instance on production workloads.",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "f4c48f42-74f2-41bf-bf99-14e2f9ea9ac9"
+    },
+    {
+        "Recommendation": "Domain verification required to issue your App Service Certificate",
+        "Impact": "High",
+        "Category": "App Service Certificates",
+        "ResourceType": "microsoft.certificateregistration/certificateorders",
+        "RecommendationID": "a2385343-200c-4eba-bbe2-9252d3f1d6ea"
+    },
+    {
+        "Recommendation": "Verify contact information for App Service Domain",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.domainregistration/domains",
+        "RecommendationID": "b9b84818-1e7c-45af-8918-a0d280911ca6"
+    },
+    {
+        "Recommendation": "Scale out your App Service plan",
+        "Impact": "Medium",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/serverfarms",
+        "RecommendationID": "45cfc38d-3ffd-4088-bb15-e4d0e1e160fe"
+    },
+    {
+        "Recommendation": "Scale out your App Service plan to avoid CPU exhaustion",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "1294987d-c97d-41d0-8fd8-cb6eab52d87b"
+    },
+    {
+        "Recommendation": "Check your app's service health issues",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "a85f5f1c-c01f-4926-84ec-700b7624af8c"
+    },
+    {
+        "Recommendation": "Fix the backup database settings of your App Service resource",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "b30897cc-2c2e-4677-a2a1-107ae982ff49"
+    },
+    {
+        "Recommendation": "Fix the backup storage settings of your App Service resource",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "80efd6cb-dcee-491b-83a4-7956e9e058d5"
+    },
+    {
+        "Recommendation": "Scale up your App Service plan SKU to avoid memory problems",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "66d3137a-c4da-4c8a-b6b8-e03f5dfba66e"
+    },
+    {
+        "Recommendation": "Fix application code, a worker process crashed due to an unhandled exception",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "3e35f804-52cb-4ebf-84d5-d15b3ab85dfc"
+    },
+    {
+        "Recommendation": "Upgrade your App Service to a Standard plan to avoid request rejects",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "78c5ab69-858a-43ca-a5ac-4ca6f9cdc30d"
+    },
+    {
+        "Recommendation": "Move your App Service resource to Standard or higher and use deployment slots",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "59a83512-d885-4f09-8e4f-c796c71c686e"
+    },
+    {
+        "Recommendation": "Use deployment slots for your App Service resource",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "0dc165fd-69bf-468a-aa04-a69377b6feb0"
+    },
+    {
+        "Recommendation": "Consider changing your application architecture to 64-bit",
+        "Impact": "Medium",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "8be322ab-e38b-4391-a5f3-421f2270d825"
+    },
+    {
+        "Recommendation": "Consider upgrading the hosting plan of the Static Web App(s) in this subscription to Standard SKU.",
+        "Impact": "High",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/staticsites",
+        "RecommendationID": "dc3edeee-f0ab-44ae-b612-605a0a739612"
+    },
+    {
+        "Recommendation": "Migrate to supported version of AGC",
+        "Impact": "High",
+        "Category": "Application Gateway for Containers",
+        "ResourceType": "microsoft.servicenetworking/trafficcontrollers",
+        "RecommendationID": "db83b3d4-96e5-4cfe-b736-b3280cadd163"
+    },
+    {
+        "Recommendation": "Upgrade your SKU or add more instances",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "6a2b1e70-bd4c-4163-86de-5243d7ac05ee"
+    },
+    {
+        "Recommendation": "Avoid hostname override to ensure site integrity",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "52a9d0a7-efe1-4512-9716-394abd4e0ab1"
+    },
+    {
+        "Recommendation": "Change subnet of V1 gateway as the current subnet contains a NAT gateway",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "511a9f7b-7b5e-4713-b18d-0b7464a84d1f"
+    },
+    {
+        "Recommendation": "Deploy your Application Gateway across Availability Zones",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "5c488377-be3e-4365-92e8-09d1e8d9038c"
+    },
+    {
+        "Recommendation": "Update VNet permission of Application Gateway users",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "6cc8be07-8c03-4bd7-ad9b-c2985b261e01"
+    },
+    {
+        "Recommendation": "Ensure autoscaling is used for increased performance and resiliency",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "c9c9750b-9ddb-436f-b19a-9c725539a0b5"
+    },
+    {
+        "Recommendation": "Change subnet of V1 gateway named GatewaySubnet as it's reserved for VPN/Express Route",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "df989782-82d1-420d-b354-71956bd9379c"
+    },
+    {
+        "Recommendation": "Reactivate the Subscription to unblock internal upgrade for V1 gateway",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "fa44bc92-1747-4cef-9f78-7861be4c0db9"
+    },
+    {
+        "Recommendation": "Implement ExpressRoute Monitor on Network Performance Monitor",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/expressroutecircuits",
+        "RecommendationID": "17454550-1543-4068-bdaf-f3ed7cdd3d86"
+    },
+    {
+        "Recommendation": "Use managed TLS certificates",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/frontdoors",
+        "RecommendationID": "5185d64e-46fd-4ed2-8633-6d81f5e3ca59"
+    },
+    {
+        "Recommendation": "Consider having at least two origins",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/frontdoors",
+        "RecommendationID": "589ab0b0-1362-44fd-8551-0e7847767600"
+    },
+    {
+        "Recommendation": "Use the same domain name on Front Door and your origin",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/frontdoors",
+        "RecommendationID": "79f543f9-60e6-4ef6-ae42-2095f6149cba"
+    },
+    {
+        "Recommendation": "Avoid placing Traffic Manager behind Front Door",
+        "Impact": "",
+        "Category": "Application Gateway",
+        "ResourceType": "",
+        "RecommendationID": ""
+    },
+    {
+        "Recommendation": "Resolve issues for private endpoint not in succeeded state",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/privateendpoints",
+        "RecommendationID": "5db013ba-e657-4b80-93f7-8c5b5f9e780a"
+    },
+    {
+        "Recommendation": "Add at least one more endpoint to the profile, preferably in another Azure region",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/trafficmanagerprofiles",
+        "RecommendationID": "6cd70072-c45c-4716-bf7b-b35c18e46e72"
+    },
+    {
+        "Recommendation": "Add an endpoint configured to \"All (World)\"",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/trafficmanagerprofiles",
+        "RecommendationID": "0bbe0a49-3c63-49d3-ab4a-aa24198f03f7"
+    },
+    {
+        "Recommendation": "Add or move one endpoint to another Azure region",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/trafficmanagerprofiles",
+        "RecommendationID": "0db76759-6d22-4262-93f0-2f989ba2b58e"
+    },
+    {
+        "Recommendation": "ExpressRoute IP routes nearing specified limit",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualhubs",
+        "RecommendationID": "e3489565-d891-406e-91d1-44f476563850"
+    },
+    {
+        "Recommendation": "Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworkgateways",
+        "RecommendationID": "70f87e66-9b2d-4bfa-ae38-1d7d74837689"
+    },
+    {
+        "Recommendation": "Move to production gateway SKUs from Basic gateways",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworkgateways",
+        "RecommendationID": "e070c4bf-afaf-413e-bc00-e476b89c5f3d"
+    },
+    {
+        "Recommendation": "Enable Active-Active gateways for redundancy",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworkgateways",
+        "RecommendationID": "c249dc0e-9a17-423e-838a-d72719e8c5dd"
+    },
+    {
+        "Recommendation": "Implement Site Resiliency for ExpressRoute",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworkgateways",
+        "RecommendationID": "8d61a7d4-5405-4f43-81e3-8c6239b844a6"
+    },
+    {
+        "Recommendation": "Implement Zone Redundant ExpressRoute Gateways",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworkgateways",
+        "RecommendationID": "c9af1ef6-55bc-48af-bfe4-2c80490159f8"
+    },
+    {
+        "Recommendation": "Use NAT gateway for outbound connectivity",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworks",
+        "RecommendationID": "56f0c458-521d-4b8b-a704-c0a099483d19"
+    },
+    {
+        "Recommendation": "Use a health probe for monitoring the health of servers",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "01c0dcd3-d6f7-4d50-a98b-4e15f9486a32"
+    },
+    {
+        "Recommendation": "Create a Standard search service (2GB)",
+        "Impact": "Medium",
+        "Category": "Azure AI Search",
+        "ResourceType": "microsoft.search/searchservices",
+        "RecommendationID": "97b38421-f88c-4db0-b397-b2d81eff6630"
+    },
+    {
+        "Recommendation": "Create a Standard search service (50MB)",
+        "Impact": "Medium",
+        "Category": "Azure AI Search",
+        "ResourceType": "microsoft.search/searchservices",
+        "RecommendationID": "8d31f25f-31a9-4267-b817-20ee44f88069"
+    },
+    {
+        "Recommendation": "Avoid exceeding your available storage quota by adding more partitions",
+        "Impact": "Medium",
+        "Category": "Azure AI Search",
+        "ResourceType": "microsoft.search/searchservices",
+        "RecommendationID": "b3efb46f-6d30-4201-98de-6492c1f8f10d"
+    },
+    {
+        "Recommendation": "Upgrade to the newest version of the listQueryKeys request",
+        "Impact": "Medium",
+        "Category": "Azure AI Search",
+        "ResourceType": "microsoft.search/searchservices",
+        "RecommendationID": "e24f566a-0ea9-4a6b-94c5-be0a73f251c8"
+    },
+    {
+        "Recommendation": "Add a replica for instance of the Azure AI Search",
+        "Impact": "Medium",
+        "Category": "Azure AI Search",
+        "ResourceType": "microsoft.search/searchservices",
+        "RecommendationID": "98acf571-d0a4-4111-993c-829f91b8c71b"
+    },
+    {
+        "Recommendation": "Upgrade Microsoft Flux extension to the newest major version",
+        "Impact": "Medium",
+        "Category": "Azure Arc-enabled Kubernetes Configuration",
+        "ResourceType": "microsoft.kubernetesconfiguration/extensions",
+        "RecommendationID": "4bc7a00b-edbb-4963-8800-1b0f8897fecf"
+    },
+    {
+        "Recommendation": "Upcoming Breaking Changes for Microsoft Flux Extension",
+        "Impact": "High",
+        "Category": "Azure Arc-enabled Kubernetes Configuration",
+        "ResourceType": "microsoft.kubernetesconfiguration/extensions",
+        "RecommendationID": "79cfad72-9b6d-4215-922d-7df77e1ea3bb"
+    },
+    {
+        "Recommendation": "Upgrade Microsoft Flux extension to a supported version",
+        "Impact": "Medium",
+        "Category": "Azure Arc-enabled Kubernetes Configuration",
+        "ResourceType": "microsoft.kubernetesconfiguration/extensions",
+        "RecommendationID": "c8e3b516-a0d5-4c64-8a7a-71cfd068d5e8"
+    },
+    {
+        "Recommendation": "Upgrade to the latest agent version of Azure Arc-enabled Kubernetes",
+        "Impact": "Medium",
+        "Category": "Azure Arc-enabled Kubernetes",
+        "ResourceType": "microsoft.kubernetes/connectedclusters",
+        "RecommendationID": "6d55ea5b-6e80-4313-9b80-83d384667eaa"
+    },
+    {
+        "Recommendation": "Upgrade to the latest version of the Azure Connected Machine agent",
+        "Impact": "Medium",
+        "Category": "Azure Arc-enabled servers",
+        "ResourceType": "microsoft.hybridcompute/machines",
+        "RecommendationID": "9d5717d2-4708-4e3f-bdda-93b3e6f1715b"
+    },
+    {
+        "Recommendation": "Increase fragmentation memory reservation",
+        "Impact": "Medium",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "7c380315-6ad9-4fb2-8930-a8aeb1d6241b"
+    },
+    {
+        "Recommendation": "Configure geo-replication for Cache for Redis instances to increase durability of applications",
+        "Impact": "High",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "c9e4a27c-79e6-4e4c-904f-b6612b6cd892"
+    },
+    {
+        "Recommendation": "Renew custom domain certificate",
+        "Impact": "Medium",
+        "Category": "Azure Container Apps",
+        "ResourceType": "microsoft.app/containerapps",
+        "RecommendationID": "b9ce2d2e-554b-4391-8ebc-91c570602b04"
+    },
+    {
+        "Recommendation": "An issue has been detected that is preventing the renewal of your Managed Certificate.",
+        "Impact": "High",
+        "Category": "Azure Container Apps",
+        "ResourceType": "microsoft.app/containerapps",
+        "RecommendationID": "fa6c0880-da2e-42fd-9cb3-e1267ec5b5c2"
+    },
+    {
+        "Recommendation": "Increase the minimal replica count for your containerized application",
+        "Impact": "Medium",
+        "Category": "Azure Container Apps",
+        "ResourceType": "microsoft.app/containerapps",
+        "RecommendationID": "9be5f344-6fa5-4abc-a1f2-61ae6192a075"
+    },
+    {
+        "Recommendation": "Re-create your your Container Apps environment to avoid DNS issues",
+        "Impact": "High",
+        "Category": "Azure Container Apps",
+        "ResourceType": "microsoft.app/managedenvironments",
+        "RecommendationID": "c692e862-953b-49fe-9c51-e5d2792c1cc1"
+    },
+    {
+        "Recommendation": "Configure Azure Cosmos DB containers with a partition key",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "5e4e9f04-9201-4fd9-8af6-a9539d13d8ec"
+    },
+    {
+        "Recommendation": "Use static Cosmos DB client instances in your code and cache the names of databases and collections",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "bdb595a4-e148-41f9-98e8-68ec92d1932e"
+    },
+    {
+        "Recommendation": "Check linked Azure Key Vault hosting your encryption key",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "44a0a07f-23a2-49df-b8dc-a1b14c7c6a9d"
+    },
+    {
+        "Recommendation": "Configure consistent indexing mode on Azure Cosmos DB containers",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "213974c8-ed9c-459f-9398-7cdaa3c28856"
+    },
+    {
+        "Recommendation": "Hotfix - Upgrade to 2.6.14 version of the Async Java SDK v2 or to Java SDK v4",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "bc9e5110-a220-4ab9-8bc9-53f92d3eef70"
+    },
+    {
+        "Recommendation": "Critical issue - Upgrade to the current recommended version of the Java SDK v4",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "38942ae5-3154-4e0b-98d9-23aa061c334b"
+    },
+    {
+        "Recommendation": "Use the new 3.6+ endpoint to connect to your upgraded Azure Cosmos DB's API for MongoDB account",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "123039b5-0fda-4744-9a17-d6b5d5d122b2"
+    },
+    {
+        "Recommendation": "Upgrade your Azure Cosmos DB API for MongoDB account to v4.2 to save on query/storage costs and utilize new features",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "0da795d9-26d2-4f02-a019-0ec383363c88"
+    },
+    {
+        "Recommendation": "Enable Server Side Retry (SSR) on your Azure Cosmos DB's API for MongoDB account",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "ec6fe20c-08d6-43da-ac18-84ac83756a88"
+    },
+    {
+        "Recommendation": "Add a second region to your production workloads on Azure Cosmos DB",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "b57f7a29-dcc8-43de-86fa-18d3f9d3764d"
+    },
+    {
+        "Recommendation": "Upgrade old Azure Cosmos DB SDK to the latest version",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "51a4e6bd-5a95-4a41-8309-40f5640fdb8b"
+    },
+    {
+        "Recommendation": "Upgrade outdated Azure Cosmos DB SDK to the latest version",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "60a55165-9ccd-4536-81f6-e8dc6246d3d2"
+    },
+    {
+        "Recommendation": "Enable service managed failover for Cosmos DB account",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "5de9f2e6-087e-40da-863a-34b7943beed4"
+    },
+    {
+        "Recommendation": "Enable HA for your Production workload",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "64fbcac1-f652-4b6f-8170-2f97ffeb5631"
+    },
+    {
+        "Recommendation": "Enable zone redundancy for multi-region Cosmos DB accounts",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "8034b205-167a-4fd5-a133-0c8cb166103c"
+    },
+    {
+        "Recommendation": "Add at least one data center in another Azure region",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "92056ca3-8fab-43d1-bebf-f9c377ef20e9"
+    },
+    {
+        "Recommendation": "Avoid being rate limited for Control Plane operation",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "a030f8ab-4dd4-4751-822b-f231a0df5f5a"
+    },
+    {
+        "Recommendation": "Resolve virtual network issues",
+        "Impact": "High",
+        "Category": "Azure Data Explorer",
+        "ResourceType": "microsoft.kusto/clusters",
+        "RecommendationID": "fa2649e9-e1a5-4d07-9b26-51c080d9a9ba"
+    },
+    {
+        "Recommendation": "Add subnet delegation for 'Microsoft.Kusto/clusters'",
+        "Impact": "High",
+        "Category": "Azure Data Explorer",
+        "ResourceType": "microsoft.kusto/clusters",
+        "RecommendationID": "f2bcadd1-713b-4acc-9810-4170a5d01dea"
+    },
+    {
+        "Recommendation": "High Availability - Add primary key to the table that currently doesn't have one.",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "cf388b0c-2847-4ba9-8b07-54c6b23f60fb"
+    },
+    {
+        "Recommendation": "Replication - Add a primary key to the table that currently doesn't have one",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "fb41cc05-7ac3-4b0e-a773-a39b5c1ca9e4"
+    },
+    {
+        "Recommendation": "Scale replica server's SKU to match the source server SKU",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "91fd3a33-3b2f-48bb-81db-a2a54cfa2d76"
+    },
+    {
+        "Recommendation": "Upgrade to Transport Layer Security (TLS) 1.2",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "f259e897-9924-45db-a1ea-788f768548da"
+    },
+    {
+        "Recommendation": "Globally set the value of the innodb_strict_mode server parameter to OFF",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "f51c5bce-c771-42c0-97c8-5c6676bad17c"
+    },
+    {
+        "Recommendation": "Remove inactive logical replication slots (important)",
+        "Impact": "High",
+        "Category": "Azure Database for PostgreSQL",
+        "ResourceType": "microsoft.dbforpostgresql/flexibleservers",
+        "RecommendationID": "33f26810-57d0-4612-85ff-a83ee9be884a"
+    },
+    {
+        "Recommendation": "Configure geo redundant backup storage",
+        "Impact": "Medium",
+        "Category": "Azure Database for PostgreSQL",
+        "ResourceType": "microsoft.dbforpostgresql/flexibleservers",
+        "RecommendationID": "5295ed8a-f7a1-48d3-b4a9-e5e472cf1685"
+    },
+    {
+        "Recommendation": "Remove inactive logical replication slots",
+        "Impact": "High",
+        "Category": "Azure Database for PostgreSQL",
+        "ResourceType": "microsoft.dbforpostgresql/servers",
+        "RecommendationID": "6f33a917-418c-4608-b34f-4ff0e7be8637"
+    },
+    {
+        "Recommendation": "Create a read replica from the Azure Database for PostgreSQL flexible server",
+        "Impact": "High",
+        "Category": "Azure Database for PostgreSQL",
+        "ResourceType": "microsoft.dbforpostgresql/flexibleservers",
+        "RecommendationID": "7d2149f5-94f7-458d-8171-92cf66832cb2"
+    },
+    {
+        "Recommendation": "Upgrade Microsoft Edge device runtime to a supported version for IoT Hub",
+        "Impact": "Medium",
+        "Category": "Azure IoT Hub",
+        "ResourceType": "microsoft.devices/iothubs",
+        "RecommendationID": "51b1fad8-4838-426f-9871-107bc089677b"
+    },
+    {
+        "Recommendation": "Upgrade device client SDK to a supported version for IotHub",
+        "Impact": "Medium",
+        "Category": "Azure IoT Hub",
+        "ResourceType": "microsoft.devices/iothubs",
+        "RecommendationID": "d448c687-b808-4143-bbdc-02c35478198a"
+    },
+    {
+        "Recommendation": "IoT Hub Potential Device Storm Detected",
+        "Impact": "Medium",
+        "Category": "Azure IoT Hub",
+        "ResourceType": "microsoft.devices/iothubs",
+        "RecommendationID": "8d7efd88-c891-46be-9287-0aec2fabd51c"
+    },
+    {
+        "Recommendation": "Upgrade Device Update for IoT Hub SDK to a supported version",
+        "Impact": "Medium",
+        "Category": "Azure IoT Hub",
+        "ResourceType": "microsoft.devices/iothubs",
+        "RecommendationID": "d1ff97b9-44cd-4acf-a9d3-3af500bd79d6"
+    },
+    {
+        "Recommendation": "Add IoT Hub units or increase SKU level",
+        "Impact": "High",
+        "Category": "Azure IoT Hub",
+        "ResourceType": "microsoft.devices/iothubs",
+        "RecommendationID": "e4bda6ac-032c-44e0-9b40-e0522796a6d2"
+    },
+    {
+        "Recommendation": "Use AKS Backup for a cluster with persistent volumes",
+        "Impact": "Medium",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "29f2eea3-b0d8-4934-a0f8-171dbd70ba13"
+    },
+    {
+        "Recommendation": "Enable Autoscaling for your system node pools",
+        "Impact": "High",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "70829b1a-272b-4728-b418-8f1a56432d33"
+    },
+    {
+        "Recommendation": "Have at least 2 nodes in your system node pool",
+        "Impact": "High",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "a9228ae7-4386-41be-b527-acd59fad3c79"
+    },
+    {
+        "Recommendation": "Create a dedicated system node pool",
+        "Impact": "High",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "f31832f1-7e87-499d-a52a-120f610aba98"
+    },
+    {
+        "Recommendation": "Ensure B-series Virtual Machine's (VMs) aren't used in production environments",
+        "Impact": "Medium",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "fac2ad84-1421-4dd3-8477-9d6e605392b4"
+    },
+    {
+        "Recommendation": "Configure AD DS Site for Azure Netapp Files AD Connector",
+        "Impact": "High",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts",
+        "RecommendationID": "2e795f35-fce6-48dc-a5ac-6860cb9a0442"
+    },
+    {
+        "Recommendation": "Ensure Roles assigned to Microsoft.NetApp Delegated Subnet has Subnet Read Permissions",
+        "Impact": "High",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "4e112555-7dc0-4f33-85e7-18398ac41345"
+    },
+    {
+        "Recommendation": "Review SAP configuration for timeout values used with Azure NetApp Files",
+        "Impact": "High",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "8754f0ed-c82a-497e-be31-c9d701c976e1"
+    },
+    {
+        "Recommendation": "Configure a snapshot for the Azure NetApp Files volume",
+        "Impact": "High",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "cda11061-35a8-4ca3-aa03-b242dcdf7319"
+    },
+    {
+        "Recommendation": "Azure Netapp Files - Enable Continuous Availability for SMB Volumes",
+        "Impact": "High",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "e4bebd74-387a-4a74-b757-475d2d1b4e3e"
+    },
+    {
+        "Recommendation": "Configure a backup for the Azure NetApp Files volume",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts",
+        "RecommendationID": "c70fc854-2814-4b03-9b93-8ad7b918bfcf"
+    },
+    {
+        "Recommendation": "Create a cross-region replication relationship from the Azure NetApp Files volume to another volume",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts",
+        "RecommendationID": "26f91380-cb68-4642-bb6f-1bce3c64c55e"
+    },
+    {
+        "Recommendation": "Create a cross-zone replication relationship from the Azure NetApp Files volume to another volume",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts",
+        "RecommendationID": "7a48f43e-8615-4ce0-8039-83b9d24f945a"
+    },
+    {
+        "Recommendation": "Enable soft delete for your Recovery Services vaults",
+        "Impact": "Medium",
+        "Category": "Azure Site Recovery",
+        "ResourceType": "microsoft.recoveryservices/vaults",
+        "RecommendationID": "3ebfaf53-4d8c-4e67-a948-017bbbf59de6"
+    },
+    {
+        "Recommendation": "Enable Cross Region Restore for your recovery Services Vault",
+        "Impact": "Medium",
+        "Category": "Azure Site Recovery",
+        "ResourceType": "microsoft.recoveryservices/vaults",
+        "RecommendationID": "9b1308f1-4c25-4347-a061-7cc5cd6a44ab"
+    },
+    {
+        "Recommendation": "Upgrade Application Configuration Service to Gen 2",
+        "Impact": "Medium",
+        "Category": "Azure Spring Apps",
+        "ResourceType": "microsoft.appplatform/spring",
+        "RecommendationID": "39d862c8-445c-40c6-ba59-0e86134df606"
+    },
+    {
+        "Recommendation": "Enable cross region disaster recovery for SQL Database",
+        "Impact": "High",
+        "Category": "Azure SQL Database",
+        "ResourceType": "microsoft.sql/servers/databases",
+        "RecommendationID": "2ea11bcb-dfd0-48dc-96f0-beba578b989a"
+    },
+    {
+        "Recommendation": "Enable zone redundancy for Azure SQL Database to achieve high availability and resiliency.",
+        "Impact": "High",
+        "Category": "Azure SQL Database",
+        "ResourceType": "microsoft.sql/servers/databases",
+        "RecommendationID": "807e58d0-e385-41ad-987b-4a4b3e3fb563"
+    },
+    {
+        "Recommendation": "Upgrade to the latest version of AKS enabled by Arc",
+        "Impact": "Low",
+        "Category": "Azure Stack HCI",
+        "ResourceType": "microsoft.azurestackhci/clusters",
+        "RecommendationID": "09e56b5a-9a00-47a7-82dd-9bd9569eb6ed"
+    },
+    {
+        "Recommendation": "Upgrade to the latest version of AKS enabled by Arc",
+        "Impact": "Low",
+        "Category": "Azure Stack HCI",
+        "ResourceType": "microsoft.azurestackhci/clusters",
+        "RecommendationID": "2ac72093-309f-41ec-bf9d-55e9fc490563"
+    },
+    {
+        "Recommendation": "Action required: Migrate classic storage accounts by 8/30/2024.",
+        "Impact": "High",
+        "Category": "Classic deployment model storage",
+        "ResourceType": "microsoft.classicstorage/storageaccounts",
+        "RecommendationID": "fd04ff97-d3b3-470a-9544-dfea3a5708db"
+    },
+    {
+        "Recommendation": "Migrate off Cloud Services (classic) before 31 August 2024",
+        "Impact": "Medium",
+        "Category": "Classic deployment model virtual machine",
+        "ResourceType": "microsoft.classiccompute/domainnames",
+        "RecommendationID": "13ff4efb-6c84-4684-8838-52c123e3e3a2"
+    },
+    {
+        "Recommendation": "Upgrade your application to use the latest API version from Azure OpenAI",
+        "Impact": "Medium",
+        "Category": "Cognitive Services",
+        "ResourceType": "microsoft.cognitiveservices/accounts",
+        "RecommendationID": "13fed411-54aa-4923-b830-23b51539d79d"
+    },
+    {
+        "Recommendation": "Quota exceeded for this resource, wait or upgrade to unblock",
+        "Impact": "Medium",
+        "Category": "Cognitive Services",
+        "ResourceType": "microsoft.cognitiveservices/accounts",
+        "RecommendationID": "3f83aee8-222d-445c-9a46-2af5fe5b4777"
+    },
+    {
+        "Recommendation": "Use Premium tier for critical production workloads",
+        "Impact": "High",
+        "Category": "Container Registry",
+        "ResourceType": "microsoft.containerregistry/registries",
+        "RecommendationID": "af0cdbce-c610-499b-9bd7-b169cdb1bb2e"
+    },
+    {
+        "Recommendation": "Ensure Geo-replication is enabled for resilience",
+        "Impact": "High",
+        "Category": "Container Registry",
+        "ResourceType": "microsoft.containerregistry/registries",
+        "RecommendationID": "dcfa2602-227e-4b6c-a60d-7b1f6514e690"
+    },
+    {
+        "Recommendation": "Azure CDN From Edgio, Managed Certificate Renewal Unsuccessful. Additional Validation Required.",
+        "Impact": "High",
+        "Category": "Content Delivery Network",
+        "ResourceType": "microsoft.cdn/profiles",
+        "RecommendationID": "ceecfd41-89b3-4c64-afe6-984c9cc03126"
+    },
+    {
+        "Recommendation": "Renew the expired Azure Front Door customer certificate to avoid service disruption",
+        "Impact": "High",
+        "Category": "Content Delivery Network",
+        "ResourceType": "microsoft.cdn/profiles",
+        "RecommendationID": "4e1c2077-7c73-4ace-b4aa-f11b36c28290"
+    },
+    {
+        "Recommendation": "Re-validate domain ownership for the Azure Front Door managed certificate renewal",
+        "Impact": "High",
+        "Category": "Content Delivery Network",
+        "ResourceType": "microsoft.cdn/profiles",
+        "RecommendationID": "bfe85fd2-ee53-4c35-8781-7790da2107e1"
+    },
+    {
+        "Recommendation": "Switch Secret version to 'Latest' for the Azure Front Door customer certificate",
+        "Impact": "Medium",
+        "Category": "Content Delivery Network",
+        "ResourceType": "microsoft.cdn/profiles",
+        "RecommendationID": "2c057605-4707-4d3e-bbb0-a7fe9b6a626b"
+    },
+    {
+        "Recommendation": "Validate domain ownership by adding DNS TXT record to DNS provider",
+        "Impact": "High",
+        "Category": "Content Delivery Network",
+        "ResourceType": "microsoft.cdn/profiles",
+        "RecommendationID": "9411bc9f-d181-497c-b519-4154ae04fb00"
+    },
+    {
+        "Recommendation": "Migrate away from Azure CDN from Edgio by January 15, 2025",
+        "Impact": "High",
+        "Category": "Content Delivery Network",
+        "ResourceType": "microsoft.cdn/profiles",
+        "RecommendationID": "2c9e3f2a-7373-45e1-ab8b-f361e5f0c37f"
+    },
+    {
+        "Recommendation": "Implement BCDR strategy for cross region redundancy in Azure Data Factory",
+        "Impact": "Medium",
+        "Category": "Data Factory",
+        "ResourceType": "microsoft.datafactory/factories",
+        "RecommendationID": "617ee02c-be69-441e-8294-dee5a237efff"
+    },
+    {
+        "Recommendation": "Enable auto upgrade on your SHIR",
+        "Impact": "Medium",
+        "Category": "Data Factory",
+        "ResourceType": "microsoft.datafactory/factories",
+        "RecommendationID": "939b97dc-fdca-4324-ba36-6ea7e1ab399b"
+    },
+    {
+        "Recommendation": "Azure Fluid Relay client library should be upgraded",
+        "Impact": "Medium",
+        "Category": "Fluid Relay",
+        "ResourceType": "microsoft.fluidrelay/fluidrelayservers",
+        "RecommendationID": "a5e8a0f8-2c84-407a-b3d8-f371d684363b"
+    },
+    {
+        "Recommendation": "Apply critical updates by dropping and recreating your HDInsight clusters (certificate rotation round 2)",
+        "Impact": "High",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "69740e3e-5b96-4b0e-b9b8-4d7573e3611c"
+    },
+    {
+        "Recommendation": "Non-ESP ABFS clusters [Cluster Permissions for Word Readable]",
+        "Impact": "High",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "24acd95e-fc9f-490c-b32d-edc6d747d0bc"
+    },
+    {
+        "Recommendation": "Restart brokers on your Kafka Cluster Disks",
+        "Impact": "High",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "35e3a19f-16e7-4bb1-a7b8-49e02a35af2e"
+    },
+    {
+        "Recommendation": "Cluster Name length update",
+        "Impact": "Medium",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "41a248ef-50d4-4c48-81fb-13196f957210"
+    },
+    {
+        "Recommendation": "Upgrade your cluster to the the latest HDInsight image",
+        "Impact": "High",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "8f163c95-0029-4139-952a-42bd0d773b93"
+    },
+    {
+        "Recommendation": "Upgrade your HDInsight Cluster",
+        "Impact": "High",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "97355d8e-59ae-43ff-9214-d4acf728467a"
+    },
+    {
+        "Recommendation": "Gateway or virtual machine not reachable",
+        "Impact": "High",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "b3bf9f14-c83e-4dd3-8f5c-a6be746be173"
+    },
+    {
+        "Recommendation": "VM agent is 9.9.9.9. Upgrade the cluster.",
+        "Impact": "High",
+        "Category": "HDInsight",
+        "ResourceType": "microsoft.hdinsight/clusters",
+        "RecommendationID": "e4635832-0ab1-48b1-a386-c791197189e6"
+    },
+    {
+        "Recommendation": "Increase Media Services quotas or limits",
+        "Impact": "Medium",
+        "Category": "Media Services",
+        "ResourceType": "microsoft.media/mediaservices",
+        "RecommendationID": "b7c9fd99-a979-40b4-ab48-b1dfab6bb41a"
+    },
+    {
+        "Recommendation": "Use Service Bus premium tier for improved resilience",
+        "Impact": "Low",
+        "Category": "Service Bus",
+        "ResourceType": "microsoft.servicebus/namespaces",
+        "RecommendationID": "29765e2c-5286-4039-963f-f8231e56cc3e"
+    },
+    {
+        "Recommendation": "Use Service Bus autoscaling feature in the premium tier for improved resilience",
+        "Impact": "High",
+        "Category": "Service Bus",
+        "ResourceType": "microsoft.servicebus/namespaces",
+        "RecommendationID": "68e62f5c-4ed1-4b78-a2a0-4d9a4cebf106"
+    },
+    {
+        "Recommendation": "Enable Azure backup for SQL on your virtual machines",
+        "Impact": "Medium",
+        "Category": "SQL Server on Azure Virtual Machines",
+        "ResourceType": "microsoft.sqlvirtualmachine/sqlvirtualmachines",
+        "RecommendationID": "77f01e65-e57f-40ee-a0e9-e18c007d4d4c"
+    },
+    {
+        "Recommendation": "Use Managed Disks for storage accounts reaching capacity limit",
+        "Impact": "High",
+        "Category": "Storage",
+        "ResourceType": "microsoft.storage/storageaccounts",
+        "RecommendationID": "d42d751d-682d-48f0-bc24-bb15b61ac4b8"
+    },
+    {
+        "Recommendation": "Configure blob backup",
+        "Impact": "Medium",
+        "Category": "Storage",
+        "ResourceType": "microsoft.storage/storageaccounts",
+        "RecommendationID": "8ef907f4-f8e3-4bf1-962d-27e005a7d82d"
+    },
+    {
+        "Recommendation": "Turn on Azure Backup to get simple, reliable, and cost-effective protection for your data",
+        "Impact": "Medium",
+        "Category": "Subscriptions",
+        "ResourceType": "microsoft.subscriptions/subscriptions",
+        "RecommendationID": "9e91a63f-faaf-46f2-ac7c-ddfcedf13366"
+    },
+    {
+        "Recommendation": "Create an Azure Service Health alert",
+        "Impact": "High",
+        "Category": "Subscriptions",
+        "ResourceType": "microsoft.subscriptions/subscriptions",
+        "RecommendationID": "242639fd-cd73-4be2-8f55-70478db8d1a5"
+    },
+    {
+        "Recommendation": "Improve data reliability by using Managed Disks",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/availabilitysets",
+        "RecommendationID": "02cfb5ef-a0c1-4633-9854-031fbda09946"
+    },
+    {
+        "Recommendation": "Use Azure Disks with Zone Redundant Storage (ZRS) for higher resiliency and availability",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/disks",
+        "RecommendationID": "d4102c0f-ebe3-4b22-8fe0-e488866a87af"
+    },
+    {
+        "Recommendation": "Enable virtual machine replication to protect applications from regional outage",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "ed651749-cd37-4fd5-9897-01b416926745"
+    },
+    {
+        "Recommendation": "Update your outbound connectivity protocol to Service Tags for Azure Site Recovery",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "bcfeb92b-fe93-4cea-adc6-e747055518e9"
+    },
+    {
+        "Recommendation": "Upgrade VM from Premium Unmanaged Disks to Managed Disks at no additional cost",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "57ecb3cd-f2b4-4cad-8b3a-232cca527a0b"
+    },
+    {
+        "Recommendation": "Upgrade your deprecated Virtual Machine image to a newer image",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "11f04d70-5bb3-4065-b717-1f11b2e050a8"
+    },
+    {
+        "Recommendation": "Upgrade to a newer offer of Virtual Machine image",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "937d85a4-11b2-4e13-a6b5-9e15e3d74d7b"
+    },
+    {
+        "Recommendation": "Upgrade to a newer SKU of Virtual Machine image",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "681acf17-11c3-4bdd-8f71-da563c79094c"
+    },
+    {
+        "Recommendation": "Provide access to mandatory URLs missing for your Azure Virtual Desktop environment",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "53e0a3cb-3569-474a-8d7b-7fd06a8ec227"
+    },
+    {
+        "Recommendation": "Use Availability zones for better resiliency and availability",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "066a047a-9ace-45f4-ac50-6325840a6b00"
+    },
+    {
+        "Recommendation": "Convert Standard to Premium disk for higher uptime",
+        "Impact": "Low",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "2b5cf6e5-2792-49b2-9ec0-0e901be6488b"
+    },
+    {
+        "Recommendation": "DNS Servers should be configured at the Virtual Network level",
+        "Impact": "Low",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "490262e8-313c-431f-a143-a9c2cadba41b"
+    },
+    {
+        "Recommendation": "Enable Backups on your Virtual Machines",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "651c7925-17a3-42e5-85cd-73bd095cf27f"
+    },
+    {
+        "Recommendation": "Add additional VM or use Premium disks for higher uptime",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "e5e707f2-f41f-4aa6-bccf-3fb9748e5b66"
+    },
+    {
+        "Recommendation": "Upgrade your Virtual Machine Scale Set to alternative image version",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachinescalesets",
+        "RecommendationID": "3b739bd1-c193-4bb6-a953-1362ee3b03b2"
+    },
+    {
+        "Recommendation": "Upgrade your Virtual Machine Scale Set to alternative image offer",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachinescalesets",
+        "RecommendationID": "3d18d7cd-bdec-4c68-9160-16a677d0f86a"
+    },
+    {
+        "Recommendation": "Upgrade your Virtual Machine Scale Set to alternative image SKU",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachinescalesets",
+        "RecommendationID": "44abb62e-7789-4f2f-8001-fa9624cb3eb3"
+    },
+    {
+        "Recommendation": "Enable automatic repair policy on Azure Virtual Machine Scale Sets (VMSS)",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachinescalesets",
+        "RecommendationID": "b4d988a9-85e6-4179-b69c-549bdd8a55bb"
+    },
+    {
+        "Recommendation": "Upgrade to Standard SSD OS disk",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "3c03549b-9c0a-4c13-bed4-def3c7e34ddd"
+    },
+    {
+        "Recommendation": "Migrate workload to D-series or better virtual machine",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "7f71b153-c0b7-4e99-a23e-db8179183ec9"
+    },
+    {
+        "Recommendation": "Use Azure Capacity Reservation for virtual machine (VM)",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "1670c0af-6536-4cbf-872f-152c91a51a80"
+    },
+    {
+        "Recommendation": "Migrate workload to Virtual Machine Scale Sets Flex",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "5f2613df-629f-4b07-9425-2a47ea0dfad3"
+    },
+    {
+        "Recommendation": "Migrate to Virtual Machine Scale Sets Flex",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "39fb2718-a2ae-4662-a8c9-cd8df23f01eb"
+    },
+    {
+        "Recommendation": "Enable Azure Virtual Machine Scale Set (VMSS) application health monitoring",
+        "Impact": "Medium",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachinescalesets",
+        "RecommendationID": "3b587048-b04b-4f81-aaed-e43793652b0f"
+    },
+    {
+        "Recommendation": "Validate Virtual Machine reliability with a Site Recovery test failover",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "01c715f6-426a-47d3-87be-9f26e2ab2d8e"
+    },
+    {
+        "Recommendation": "Ensure high availability for production SAP app server",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "90a86c8e-efab-47a1-bb4d-63f231b15292"
+    },
+    {
+        "Recommendation": "Ensure high availability across zones for SAP app server",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "b914567c-cfc4-42a5-8d16-939b77b6b4d0"
+    },
+    {
+        "Recommendation": "Use Premium or Ultra Disk for single app server VM",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "a7202ec4-8a6e-45ef-9b6e-df2486bcaa86"
+    },
+    {
+        "Recommendation": "Set the Idle timeout in Azure Load Balancer to 30 minutes for ASCS HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "45c2994f-a01d-4024-843e-a2a84dae48b4"
+    },
+    {
+        "Recommendation": "Enable Floating IP in the Azure Load balancer for ASCS HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "aec9b9fb-145f-4af8-94f3-7fdc69762b72"
+    },
+    {
+        "Recommendation": "Enable HA ports in the Azure Load Balancer for ASCS HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "c3811f93-a1a5-4a84-8fba-dd700043cc42"
+    },
+    {
+        "Recommendation": "Disable TCP timestamps on VMs placed behind Azure Load Balancer in ASCS HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "27899d14-ac62-41f4-a65d-e6c2a5af101b"
+    },
+    {
+        "Recommendation": "Ensure that stonith is enabled for the Pacemaker configuration in ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "28a00e1e-d0ad-452f-ad58-95e6c584e594"
+    },
+    {
+        "Recommendation": "Set the corosync token in Pacemaker cluster to 30000 for ASCS HA setup in SAP workloads (RHEL)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "deede7ea-68c5-4fb9-8f08-5e706f88ac67"
+    },
+    {
+        "Recommendation": "Set the expected votes parameter to '2' in Pacemaker cofiguration in ASCS HA setup in SAP workloads (RHEL)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "35ef8bba-923e-44f3-8f06-691deb679468"
+    },
+    {
+        "Recommendation": "Enable the 'concurrent-fencing' parameter in Pacemaker cofiguration in ASCS HA setup in SAP workloads (ConcurrentFencingHAASCSRH)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "0fffcdb4-87db-44f2-956f-dc9638248659"
+    },
+    {
+        "Recommendation": "Ensure that stonith is enabled for the cluster configuration in ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "6921340e-baa1-424f-80d5-c07bbac3cf7c"
+    },
+    {
+        "Recommendation": "Set the stonith timeout to 144 for the cluster configuration in ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "4eb10096-942e-402d-b4a6-e4e271c87a02"
+    },
+    {
+        "Recommendation": "Set the corosync token in Pacemaker cluster to 30000 for ASCS HA setup in SAP workloads (SUSE)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "9f30eb2b-6a6f-4fa8-89dc-85a395c31233"
+    },
+    {
+        "Recommendation": "Set 'token_retransmits_before_loss_const' to 10 in Pacemaker cluster in ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "f32b8f89-fb3c-4030-bd4a-0a16247db408"
+    },
+    {
+        "Recommendation": "The 'corosync join' timeout specifies in milliseconds how long to wait for join messages in the membership protocol so when a new node joins the cluster, it has time to synchronize its state with existing nodes. Set to '60' in Pacemaker cluster configuration for ASCS HA setup.",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "fed84141-4942-49b3-8b0c-73a8b352f754"
+    },
+    {
+        "Recommendation": "Set the 'corosync consensus' in Pacemaker cluster to '36000' for ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "73227428-640d-4410-aec4-bac229a2b7bd"
+    },
+    {
+        "Recommendation": "Set the 'corosync max_messages' in Pacemaker cluster to '20' for ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "14a889a6-374f-4bd4-8add-f644e3fe277d"
+    },
+    {
+        "Recommendation": "Set 'expected votes' to '2' in the cluster configuration in ASCS HA setup in SAP workloads (SUSE)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "89a9ddd9-f9bf-47e4-b5f7-a0a4edfa0cdb"
+    },
+    {
+        "Recommendation": "Set the two_node parameter to 1 in the cluster cofiguration in ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "2030a15b-ff0b-47c3-b934-60072ccda75e"
+    },
+    {
+        "Recommendation": "Enable 'concurrent-fencing' in Pacemaker ASCS HA setup in SAP workloads (ConcurrentFencingHAASCSSLE)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "dc19b2c9-0770-4929-8f63-81c07fe7b6f3"
+    },
+    {
+        "Recommendation": "Ensure the number of 'fence_azure_arm' instances is one in Pacemaker in HA enabled SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "cb56170a-0ecb-420a-b2c9-5c4878a0132a"
+    },
+    {
+        "Recommendation": "Set stonith-timeout to 900 in Pacemaker configuration with Azure fence agent for ASCS HA setup",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "05747c68-715f-4c8f-b027-f57a931cc07a"
+    },
+    {
+        "Recommendation": "Create the softdog config file in Pacemaker configuration for ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "88261a1a-6a32-4fb6-8bbd-fcd60fdfcab6"
+    },
+    {
+        "Recommendation": "Ensure the softdog module is loaded in for Pacemaler in ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "3730bc11-c81c-43eb-896a-8fce0bac139d"
+    },
+    {
+        "Recommendation": "Ensure high availability for production SAP central service",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "d2c08f71-906b-4915-a08e-c56215913fb2"
+    },
+    {
+        "Recommendation": "Ensure high availability across zones of SAP central service",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "9db6dd7f-af0e-45aa-89df-d35062baaefb"
+    },
+    {
+        "Recommendation": "Use Premium or Ultra Disk for SAP central service VM",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "bbdfaf94-719f-4cb2-897a-9e237007328a"
+    },
+    {
+        "Recommendation": "Set the Idle timeout in Azure Load Balancer to 30 minutes for HANA DB HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "1c1deb1c-ae1b-49a7-88d3-201285ad63b6"
+    },
+    {
+        "Recommendation": "Enable Floating IP in the Azure Load balancer for HANA DB HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "cca36756-d938-4f3a-aebf-75358c7c0622"
+    },
+    {
+        "Recommendation": "Enable HA ports in the Azure Load Balancer for HANA DB HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "a5ac35c2-a299-4864-bfeb-09d2348bda68"
+    },
+    {
+        "Recommendation": "Disable TCP timestamps on VMs placed behind Azure Load Balancer in HANA DB HA setup in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "760ba688-69ea-431b-afeb-13683a03f0c2"
+    },
+    {
+        "Recommendation": "Ensure high availability for production SAP database",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "c16626fe-2b55-4e01-9ddf-7d25f694f2ef"
+    },
+    {
+        "Recommendation": "Ensure high availability across zones of SAP database",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "ab3fc753-4f6e-481f-a42a-7d9a85c56b43"
+    },
+    {
+        "Recommendation": "Use Premium or Ultra Disk for prod system of database VM",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "4a047f75-39f1-4ec7-a5e7-2261d1741b0c"
+    },
+    {
+        "Recommendation": "Set PREFER_SITE_TAKEOVER parameter to 'true' in the Pacemaker configuration for HANA DB HA setup",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "255e9f7b-db3a-4a67-b87e-6fdc36ea070d"
+    },
+    {
+        "Recommendation": "Enable stonith in the cluster cofiguration in HA enabled SAP workloads for VMs with Redhat OS",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "4594198b-b114-4865-8ed8-be06db945408"
+    },
+    {
+        "Recommendation": "Set the corosync token in Pacemaker cluster to 30000 for HA enabled HANA DB for VM with RHEL OS",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "604f3822-6a28-47db-b31c-4b0dbe317625"
+    },
+    {
+        "Recommendation": "Set the  expected votes parameter to '2' in HA enabled SAP workloads (RHEL)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "937a1997-fc2d-4a3a-a9f6-e858a80921fd"
+    },
+    {
+        "Recommendation": "Enable the 'concurrent-fencing' parameter in the Pacemaker cofiguration for HANA DB HA setup",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "6cc63594-c89f-4535-b878-cdd13659cfc5"
+    },
+    {
+        "Recommendation": "Set parameter PREFER_SITE_TAKEOVER to 'true' in the cluster cofiguration in HA enabled SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "230fddab-0864-4c5e-bb27-037bec7c46c6"
+    },
+    {
+        "Recommendation": "Enable stonith in the cluster configuration in HA enabled SAP workloads for VMs with SUSE OS",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "210d0895-074c-4cc7-88de-b0a9e00820c6"
+    },
+    {
+        "Recommendation": "Set the stonith timeout to 144 for the cluster configuration in HA enabled SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "64e5e17e-640e-430f-987a-721f133dbd5c"
+    },
+    {
+        "Recommendation": "Set the corosync token in Pacemaker cluster to 30000 for HA enabled HANA DB for VM with SUSE OS",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "a563e3ad-b6b5-4ec2-a444-c4e30800b8cf"
+    },
+    {
+        "Recommendation": "Set 'token_retransmits_before_loss_const' to 10 in Pacemaker cluster in HA enabled SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "99681175-0124-44de-93ae-edc08f9dc0a8"
+    },
+    {
+        "Recommendation": "Set the 'corosync join' in Pacemaker cluster to 60 for HA enabled HANA DB in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "b8ac170f-433e-4d9c-8b75-f7070a2a5c92"
+    },
+    {
+        "Recommendation": "Set the 'corosync consensus' in Pacemaker cluster to 36000 for HA enabled HANA DB in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "63e27ad9-1804-405a-97eb-d784686ffbe3"
+    },
+    {
+        "Recommendation": "Set the 'corosync max_messages' in Pacemaker cluster to 20 for HA enabled HANA DB in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "7ce9ff70-f684-47a2-b26f-781f80b1bccc"
+    },
+    {
+        "Recommendation": "Set the  expected votes parameter to 2 in HA enabled SAP workloads (SUSE)",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "37240e75-9493-433a-8671-2e2582584875"
+    },
+    {
+        "Recommendation": "Set the two_node parameter to 1 in the cluster configuration in HA enabled SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "41cd63e2-69a4-4a4f-bb69-1d3f832001f9"
+    },
+    {
+        "Recommendation": "Enable the 'concurrent-fencing' parameter in the cluster configuration in HA enabled SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "d763b894-7641-4c5d-9bc3-6f2515a6eb67"
+    },
+    {
+        "Recommendation": "Ensure there is one instance of fence_azure_arm in the Pacemaker configuration for HANA DB HA setup",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "1f4b5e87-69e9-470a-8245-f337fd0d5528"
+    },
+    {
+        "Recommendation": "Set stonith-timeout to 900 in Pacemaker configuration with Azure fence agent for HANA DB HA setup",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "943f7572-1884-4120-808d-ac2a3e70e33a"
+    },
+    {
+        "Recommendation": "Ensure that the softdog config file is in the Pacemaker configuration for  HANA DB in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "63233341-73a2-4180-b57f-6f83395161b9"
+    },
+    {
+        "Recommendation": "Ensure the softdog module is loaded in Pacemaker in ASCS HA setup in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "b27248cd-67dc-4824-b162-4563adaa6d70"
+    }
+]
