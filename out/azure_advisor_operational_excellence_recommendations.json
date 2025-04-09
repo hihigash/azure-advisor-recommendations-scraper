@@ -1,0 +1,962 @@
+[
+    {
+        "Recommendation": "Only allow tracing on subscriptions intended for debugging purposes. Sharing subscription keys with tracing allowed with unauthorized users could lead to disclosure of sensitive information contained in tracing logs such as keys, access tokens, passwords, internal hostnames, and IP addresses.",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "bb3bb94d-c2f1-4f8b-97b3-7025e1a11f03",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#only-allow-tracing-on-subscriptions-intended-for-debugging-purposes-sharing-subscription-keys-with-tracing-allowed-with-unauthorized-users-could-lead-to-disclosure-of-sensitive-information-contained-in-tracing-logs-such-as-keys-access-tokens-passwords-internal-hostnames-and-ip-addresses"
+    },
+    {
+        "Recommendation": "Self-hosted gateway instance(s) were identified that use gateway tokens that will expire soon",
+        "Impact": "High",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "b677ed4b-1eed-45c7-b268-4280be5839f8",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#self-hosted-gateway-instances-were-identified-that-use-gateway-tokens-that-will-expire-soon"
+    },
+    {
+        "Recommendation": "Use Azure AD-based authentication for more fine-grained control and simplified management",
+        "Impact": "Medium",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "b226053d-8d25-4de4-9e26-fa30df1a4379",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-azure-ad-based-authentication-for-more-fine-grained-control-and-simplified-management"
+    },
+    {
+        "Recommendation": "Use api-versions newer than 2021-08-01 to manage service configuration",
+        "Impact": "Medium",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "6c154595-3c5c-49d3-ac57-f122a8e1adb9",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-api-versions-newer-than-2021-08-01-to-manage-service-configuration"
+    },
+    {
+        "Recommendation": "Validate JWT policy is being used with security keys that have insecure key size for validating Json Web Token (JWT).",
+        "Impact": "Medium",
+        "Category": "API Management",
+        "ResourceType": "microsoft.apimanagement/service",
+        "RecommendationID": "580a50ee-8300-4678-9a16-a946c948778b",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#validate-jwt-policy-is-being-used-with-security-keys-that-have-insecure-key-size-for-validating-json-web-token-jwt"
+    },
+    {
+        "Recommendation": "Set up staging environments in Azure App Service",
+        "Impact": "Low",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "1d3b5a51-62d4-4b77-96f6-40ed0a3aa21f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-up-staging-environments-in-azure-app-service"
+    },
+    {
+        "Recommendation": "Update Service Connector API Version",
+        "Impact": "Low",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "511c0f88-60dd-4178-9c48-36e9d61f6c85",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-service-connector-api-version"
+    },
+    {
+        "Recommendation": "Update Service Connector SDK to the latest version",
+        "Impact": "Low",
+        "Category": "App Service",
+        "ResourceType": "microsoft.web/sites",
+        "RecommendationID": "abe69199-cad8-4eb8-a915-15bcf58ff369",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-service-connector-sdk-to-the-latest-version"
+    },
+    {
+        "Recommendation": "Use latest Application Gateway for Containers SDK",
+        "Impact": "Medium",
+        "Category": "Application Gateway for Containers",
+        "ResourceType": "microsoft.servicenetworking/trafficcontrollers",
+        "RecommendationID": "3ac9dcbe-3587-4f74-ad86-00774ed18b29",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-latest-application-gateway-for-containers-sdk"
+    },
+    {
+        "Recommendation": "Application Gateway v1 has been retired. Migrate to Application Gateway v2.",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "0e19257e-dcef-4d00-8de1-5fe1ae0fd948",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#application-gateway-v1-has-been-retired-migrate-to-application-gateway-v2"
+    },
+    {
+        "Recommendation": "Resolve Azure Key Vault issue for your Application Gateway",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "3467464b-955a-4caf-95e5-547344ba0281",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#resolve-azure-key-vault-issue-for-your-application-gateway"
+    },
+    {
+        "Recommendation": "Upgrade your legacy WAF configuration to WAF policies",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "47ee7abd-4f5e-45d7-9d9f-d0329616fef9",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-your-legacy-waf-configuration-to-waf-policies"
+    },
+    {
+        "Recommendation": "Fix DNS configuration causing resolution failures",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "884975b5-12b5-433d-a633-904d8db75c5f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#fix-dns-configuration-causing-resolution-failures"
+    },
+    {
+        "Recommendation": "Remove the conflicting private frontend IP configuration",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "ea000e01-b053-4076-a61b-e4cc58e9db07",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#remove-the-conflicting-private-frontend-ip-configuration"
+    },
+    {
+        "Recommendation": "Application Gateway doesn't have enough capacity to scale out",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgateways",
+        "RecommendationID": "ed19a87d-5729-4ba2-98bb-1a5a8d37b4c7",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#application-gateway-doesnt-have-enough-capacity-to-scale-out"
+    },
+    {
+        "Recommendation": "Upgrade to the latest DRS rule set in Application Gateway WAF",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgatewaywebapplicationfirewallpolicies",
+        "RecommendationID": "7aaefe5a-5b88-4790-9a3d-5106722f7c34",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-drs-rule-set-in-application-gateway-waf"
+    },
+    {
+        "Recommendation": "Upgrade from legacy CRS 2.2.9 rule set to the latest DRS version",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgatewaywebapplicationfirewallpolicies",
+        "RecommendationID": "aa60b18a-feab-4857-8d9a-e4f6a8d3ef0e",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-from-legacy-crs-229-rule-set-to-the-latest-drs-version"
+    },
+    {
+        "Recommendation": "Upgrade to the latest bot protection rule set in Application Gateway WAF",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/applicationgatewaywebapplicationfirewallpolicies",
+        "RecommendationID": "fd86a3fc-2048-46a7-8ea1-d859cecf54ef",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-bot-protection-rule-set-in-application-gateway-waf"
+    },
+    {
+        "Recommendation": "Configure Connection Monitor for ExpressRoute",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/expressroutecircuits",
+        "RecommendationID": "8cf57fc1-66ee-4089-a92f-29b9fdb27ea7",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#configure-connection-monitor-for-expressroute"
+    },
+    {
+        "Recommendation": "Migrate Azure Front Door (classic) to Standard/Premium tier",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/frontdoors",
+        "RecommendationID": "14368063-38db-4dd6-a755-9c49ff123a5e",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-front-door-classic-to-standardpremium-tier"
+    },
+    {
+        "Recommendation": "Upgrade to the latest bot protection rule set in Front Door WAF",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/frontdoorwebapplicationfirewallpolicies",
+        "RecommendationID": "3f0e3a98-0a69-4798-b780-efeaa6c44810",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-bot-protection-rule-set-in-front-door-waf"
+    },
+    {
+        "Recommendation": "Upgrade to the latest DRS rule set in Front Door WAF",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/frontdoorwebapplicationfirewallpolicies",
+        "RecommendationID": "a1ad465b-8218-40d6-a6ce-4bfff566a6cd",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-drs-rule-set-in-front-door-waf"
+    },
+    {
+        "Recommendation": "Add explicit outbound method to disable default outbound",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/networkinterfaces",
+        "RecommendationID": "c7a883a4-fda2-4bcd-9f78-dad70c19429f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#add-explicit-outbound-method-to-disable-default-outbound"
+    },
+    {
+        "Recommendation": "Enable Traffic Analytics to view insights into traffic patterns across Azure resources",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/networksecuritygroups",
+        "RecommendationID": "7c27d589-c7ed-47e1-8fe9-fe12ea81634a",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-traffic-analytics-to-view-insights-into-traffic-patterns-across-azure-resources"
+    },
+    {
+        "Recommendation": "Upgrade from network security group flow log to Virtual Network flow log",
+        "Impact": "High",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/networkwatchers/flowlogs",
+        "RecommendationID": "6f087e7e-afdf-4a3d-a1de-41d70404b9cb",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-from-network-security-group-flow-log-to-virtual-network-flow-log"
+    },
+    {
+        "Recommendation": "Configure Connection Monitor for ExpressRoute Gateway",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworkgateways",
+        "RecommendationID": "dedaaba3-b5aa-4e91-a12e-6886ba0b2f6d",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#configure-connection-monitor-for-expressroute-gateway"
+    },
+    {
+        "Recommendation": "VNet with more than 5 peerings should be managed using AVNM connectivity configuration",
+        "Impact": "Medium",
+        "Category": "Application Gateway",
+        "ResourceType": "microsoft.network/virtualnetworks",
+        "RecommendationID": "f8d4da72-3b27-4dd7-839c-bd69b9b95111",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#vnet-with-more-than-5-peerings-should-be-managed-using-avnm-connectivity-configuration"
+    },
+    {
+        "Recommendation": "Move to Azure Update Manager as Automation Update Management will be deprecated by 31st Aug 2024",
+        "Impact": "High",
+        "Category": "Automation",
+        "ResourceType": "microsoft.automation/automationaccounts",
+        "RecommendationID": "3860e7f6-34e4-4948-b9ad-613a3363392f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#move-to-azure-update-manager-as-automation-update-management-will-be-deprecated-by-31st-aug-2024"
+    },
+    {
+        "Recommendation": "Upgrade to Start/Stop VMs v2",
+        "Impact": "Medium",
+        "Category": "Automation",
+        "ResourceType": "microsoft.automation/automationaccounts",
+        "RecommendationID": "57a08d06-8de2-4b9e-b1b7-889cfa844564",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-startstop-vms-v2"
+    },
+    {
+        "Recommendation": "Azure AI Search Storage is 80% full; add partition to increase capacity",
+        "Impact": "Medium",
+        "Category": "Azure AI Search",
+        "ResourceType": "microsoft.search/searchservices",
+        "RecommendationID": "20c2eb91-7c3b-4744-8bd3-44820f563ce1",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azure-ai-search-storage-is-80-full-add-partition-to-increase-capacity"
+    },
+    {
+        "Recommendation": "Update API version for Azure Arc-enabled storage classes",
+        "Impact": "Low",
+        "Category": "Azure Arc-enabled Kubernetes",
+        "ResourceType": "microsoft.kubernetes/storageclasses",
+        "RecommendationID": "8e4b942f-1cdc-4fb8-bd1d-caba89629a98",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-api-version-for-azure-arc-enabled-storage-classes"
+    },
+    {
+        "Recommendation": "You may benefit from using an Enterprise tier cache instance",
+        "Impact": "High",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "f160c11d-9aab-4d41-979f-d119dec02392",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#you-may-benefit-from-using-an-enterprise-tier-cache-instance"
+    },
+    {
+        "Recommendation": "Redis persistence allows you to persist data stored in a cache so you can reload data from an event that caused data loss.",
+        "Impact": "Medium",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "e387838a-4fbc-47d5-9a3d-9d1aaa218345",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#redis-persistence-allows-you-to-persist-data-stored-in-a-cache-so-you-can-reload-data-from-an-event-that-caused-data-loss"
+    },
+    {
+        "Recommendation": "Cloud service caches are being retired in August 2024, migrate before then to avoid any problems",
+        "Impact": "High",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "204cc04b-0e75-46f9-9a43-9bcb39955236",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#cloud-service-caches-are-being-retired-in-august-2024-migrate-before-then-to-avoid-any-problems"
+    },
+    {
+        "Recommendation": "Using persistence with soft delete enabled can increase storage costs.",
+        "Impact": "Medium",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "77204a4e-03ed-4db5-b059-3c3a26145b43",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#using-persistence-with-soft-delete-enabled-can-increase-storage-costs"
+    },
+    {
+        "Recommendation": "Support for TLS versions 1.0 and 1.1 is retiring on October 31, 2024.",
+        "Impact": "High",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "faf7de8d-ccb9-4364-aad1-4852e489b2f3",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#support-for-tls-versions-10-and-11-is-retiring-on-october-31-2024"
+    },
+    {
+        "Recommendation": "Injecting a cache into a virtual network (VNet) imposes complex requirements on your network configuration. This is a common source of incidents affecting customer applications",
+        "Impact": "Medium",
+        "Category": "Azure Cache for Redis",
+        "ResourceType": "microsoft.cache/redis",
+        "RecommendationID": "dc33091b-a748-4418-b4b0-d3d97466efe4",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#injecting-a-cache-into-a-virtual-network-vnet-imposes-complex-requirements-on-your-network-configuration-this-is-a-common-source-of-incidents-affecting-customer-applications"
+    },
+    {
+        "Recommendation": "The API version you use for Microsoft.App is deprecated, please use latest API version",
+        "Impact": "Low",
+        "Category": "Azure Container Apps",
+        "ResourceType": "microsoft.app/containerapps",
+        "RecommendationID": "A0C6DF20-B77A-4215-A877-A8EE03CEB156",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#the-api-version-you-use-for-microsoftapp-is-deprecated-please-use-latest-api-version"
+    },
+    {
+        "Recommendation": "Enable Java Stack to unleash the power of Java",
+        "Impact": "Medium",
+        "Category": "Azure Container Apps",
+        "ResourceType": "microsoft.app/containerapps",
+        "RecommendationID": "135f09ad-9dbb-433d-8854-da272e05f435",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-java-stack-to-unleash-the-power-of-java"
+    },
+    {
+        "Recommendation": "Migrate Azure Cosmos DB attachments to Azure Blob Storage",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "061dcd4a-2090-4ec0-b4e0-ec9eaae5cf80",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-cosmos-db-attachments-to-azure-blob-storage"
+    },
+    {
+        "Recommendation": "Improve resiliency by migrating your Azure Cosmos DB accounts to continuous backup",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "52fef986-5897-4359-8b92-0f22749f0d73",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#improve-resiliency-by-migrating-your-azure-cosmos-db-accounts-to-continuous-backup"
+    },
+    {
+        "Recommendation": "Enable partition merge to configure an optimal database partition layout",
+        "Impact": "High",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "bf161e78-ce57-4198-82e8-a34522045518",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-partition-merge-to-configure-an-optimal-database-partition-layout"
+    },
+    {
+        "Recommendation": "Enable near real-time analytics or reporting on your Azure Cosmos DB data",
+        "Impact": "Low",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "54537590-fff7-4680-bdf8-5e37b5cf0c12",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-near-real-time-analytics-or-reporting-on-your-azure-cosmos-db-data"
+    },
+    {
+        "Recommendation": "Monitor Azure Cosmos DB data by using resource-specific diagnostic settings.",
+        "Impact": "Medium",
+        "Category": "Azure Cosmos DB",
+        "ResourceType": "microsoft.documentdb/databaseaccounts",
+        "RecommendationID": "a850ac78-dcea-485d-9c86-17a5f2cf56c4",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#monitor-azure-cosmos-db-data-by-using-resource-specific-diagnostic-settings"
+    },
+    {
+        "Recommendation": "Reduce the cache policy on your Data Explorer tables",
+        "Impact": "Medium",
+        "Category": "Azure Data Explorer",
+        "ResourceType": "microsoft.kusto/clusters",
+        "RecommendationID": "9a3ea211-a282-4ab6-a63b-81024975b796",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#reduce-the-cache-policy-on-your-data-explorer-tables"
+    },
+    {
+        "Recommendation": "Optimize or partition tables in your database which has huge tablespace size",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "2bf9d58d-6ceb-41f2-9f95-94089f3cdbf6",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#optimize-or-partition-tables-in-your-database-which-has-huge-tablespace-size"
+    },
+    {
+        "Recommendation": "Enable storage autogrow for MySQL Flexible Server",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "43b6411e-c197-4e3d-9295-af1b84e552cf",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-storage-autogrow-for-mysql-flexible-server"
+    },
+    {
+        "Recommendation": "Add firewall rules for MySQL Flexible Server",
+        "Impact": "Medium",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "6e5238b4-d495-4bde-bc7b-17f5d67f696b",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#add-firewall-rules-for-mysql-flexible-server"
+    },
+    {
+        "Recommendation": "Apply resource delete lock",
+        "Impact": "Low",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "be19e76c-125e-4f19-aa19-51e400e754fe",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#apply-resource-delete-lock"
+    },
+    {
+        "Recommendation": "Your Azure Database for MySQL - Flexible Server is vulnerable using weak, deprecated TLSv1 or TLSv1.1 protocols",
+        "Impact": "High",
+        "Category": "Azure Database for MySQL",
+        "ResourceType": "microsoft.dbformysql/flexibleservers",
+        "RecommendationID": "feae9d98-0d24-48eb-ac98-0cedeefd5b9a",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#your-azure-database-for-mysql---flexible-server-is-vulnerable-using-weak-deprecated-tlsv1-or-tlsv11-protocols"
+    },
+    {
+        "Recommendation": "Update Cloud HSM SDK Version",
+        "Impact": "Medium",
+        "Category": "Azure Dedicated HSM",
+        "ResourceType": "microsoft.hardwaresecuritymodules/cloudhsmclusters",
+        "RecommendationID": "5def6158-6b43-44af-9744-681ce65b0248",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-cloud-hsm-sdk-version"
+    },
+    {
+        "Recommendation": "IoT Hub Fallback Route Disabled",
+        "Impact": "Low",
+        "Category": "Azure IoT Hub",
+        "ResourceType": "microsoft.devices/iothubs",
+        "RecommendationID": "31e5d980-53b5-4475-855e-b6d71b70c2af",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#iot-hub-fallback-route-disabled"
+    },
+    {
+        "Recommendation": "Use the Standard Load Balancer",
+        "Impact": "Medium",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "0b341a36-99c1-41be-b9fb-71efd8029d31",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-the-standard-load-balancer"
+    },
+    {
+        "Recommendation": "Deprecated Kubernetes APIs are found. Avoid using deprecated API.",
+        "Impact": "High",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "37a054b6-21dc-4f5c-bdfe-360c0827205f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#deprecated-kubernetes-apis-are-found-avoid-using-deprecated-api"
+    },
+    {
+        "Recommendation": "Expired ETCD cert",
+        "Impact": "Medium",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "6641760c-2bf8-41df-bac9-177af4a6b6b9",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#expired-etcd-cert"
+    },
+    {
+        "Recommendation": "Enable Container Insights",
+        "Impact": "Medium",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "dccd771b-3484-4a41-bdbf-00b35103d5bb",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-container-insights"
+    },
+    {
+        "Recommendation": "Use the latest generation VM series such as Ddv5 series",
+        "Impact": "Low",
+        "Category": "Azure Kubernetes Service (AKS)",
+        "ResourceType": "microsoft.containerservice/managedclusters",
+        "RecommendationID": "deb97441-d830-49f6-b9a5-9d04306abde9",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#use-the-latest-generation-vm-series-such-as-ddv5-series"
+    },
+    {
+        "Recommendation": "Update Azure Managed Grafana SDK Version",
+        "Impact": "Medium",
+        "Category": "Azure Managed Workspace for Grafana",
+        "ResourceType": "microsoft.dashboard/grafana",
+        "RecommendationID": "c324c9de-e88a-4074-9727-c775a0b169b2",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-managed-grafana-sdk-version"
+    },
+    {
+        "Recommendation": "Log alert rule was disabled",
+        "Impact": "Medium",
+        "Category": "Azure Monitor",
+        "ResourceType": "microsoft.insights/scheduledqueryrules",
+        "RecommendationID": "03e77a09-fc67-4bb6-86ed-42bda42fb9ad",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#log-alert-rule-was-disabled"
+    },
+    {
+        "Recommendation": "Repair your log alert rule",
+        "Impact": "Medium",
+        "Category": "Azure Monitor",
+        "ResourceType": "microsoft.insights/scheduledqueryrules",
+        "RecommendationID": "2b5eac39-9f50-4d8d-bc9b-1e1e07c5c37e",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#repair-your-log-alert-rule"
+    },
+    {
+        "Recommendation": "Configure standard networking for the Azure NetApp Files volume",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts",
+        "RecommendationID": "d35fd191-4fa0-4949-8517-50750bd9672e",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#configure-standard-networking-for-the-azure-netapp-files-volume"
+    },
+    {
+        "Recommendation": "Backup Vault Migration",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts",
+        "RecommendationID": "f1a7425d-69fa-463e-a2b0-f1d37cb995cf",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#backup-vault-migration"
+    },
+    {
+        "Recommendation": "Avoid mounting issue by specifying NFSv4.1 mount options",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "464a7366-ddae-4d74-9187-386bfc45e4f5",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#avoid-mounting-issue-by-specifying-nfsv41-mount-options"
+    },
+    {
+        "Recommendation": "AzureNetappFiles IP Route Limit Recommendation",
+        "Impact": "High",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "8a31e95c-1d95-477d-87f3-2cbdeb7c5bcc",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#azurenetappfiles-ip-route-limit-recommendation"
+    },
+    {
+        "Recommendation": "Application Volume Group SDK Recommendation",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "cd52642c-aa62-4231-b4a3-844175d9da2e",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#application-volume-group-sdk-recommendation"
+    },
+    {
+        "Recommendation": "Configure the network topology and the domain controllers",
+        "Impact": "Medium",
+        "Category": "Azure NetApp Files",
+        "ResourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+        "RecommendationID": "db4ccef4-d6aa-40a8-8d3c-b42ffc20a9a0",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#configure-the-network-topology-and-the-domain-controllers"
+    },
+    {
+        "Recommendation": "Switch to Azure Monitor based alerts for backup",
+        "Impact": "Medium",
+        "Category": "Azure Site Recovery",
+        "ResourceType": "microsoft.recoveryservices/vaults",
+        "RecommendationID": "06578866-1877-41e6-9d22-3ea5122e8048",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#switch-to-azure-monitor-based-alerts-for-backup"
+    },
+    {
+        "Recommendation": "Update Azure Spring Cloud API Version",
+        "Impact": "Medium",
+        "Category": "Azure Spring Apps",
+        "ResourceType": "microsoft.appplatform/spring",
+        "RecommendationID": "7c3484ae-c299-46d0-912d-d77aaeb1feb7",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-azure-spring-cloud-api-version"
+    },
+    {
+        "Recommendation": "Update your outdated Azure Spring Cloud SDK to the latest version",
+        "Impact": "Medium",
+        "Category": "Azure Spring Apps",
+        "ResourceType": "microsoft.appplatform/spring",
+        "RecommendationID": "a0b3b756-caef-4f1c-9546-576e9f4cc7da",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-your-outdated-azure-spring-cloud-sdk-to-the-latest-version"
+    },
+    {
+        "Recommendation": "Permissions missing for start VM on connect",
+        "Impact": "High",
+        "Category": "Azure Virtual Desktop",
+        "ResourceType": "microsoft.desktopvirtualization/hostpools",
+        "RecommendationID": "998920ce-4616-4980-9d5c-72a731524d8c",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#permissions-missing-for-start-vm-on-connect"
+    },
+    {
+        "Recommendation": "New HCX version is available for upgrade",
+        "Impact": "High",
+        "Category": "Azure VMware Solution",
+        "ResourceType": "microsoft.avs/privateclouds",
+        "RecommendationID": "78785b91-c41b-4d86-9a8f-37705c13c2a6",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#new-hcx-version-is-available-for-upgrade"
+    },
+    {
+        "Recommendation": "Recreate your pool with a new image",
+        "Impact": "High",
+        "Category": "Batch",
+        "ResourceType": "microsoft.batch/batchaccounts",
+        "RecommendationID": "a37462ed-d4d7-4c42-bf88-f16a60e2f8b6",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#recreate-your-pool-with-a-new-image"
+    },
+    {
+        "Recommendation": "Recreate your pool to get the latest node agent features and fixes",
+        "Impact": "Medium",
+        "Category": "Batch",
+        "ResourceType": "microsoft.batch/batchaccounts",
+        "RecommendationID": "962f2d6d-b2c7-4c48-9e61-2a857051815d",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#recreate-your-pool-to-get-the-latest-node-agent-features-and-fixes"
+    },
+    {
+        "Recommendation": "Delete and recreate your pool to remove a deprecated internal component",
+        "Impact": "High",
+        "Category": "Batch",
+        "ResourceType": "microsoft.batch/batchaccounts",
+        "RecommendationID": "a49b0685-56d6-468d-b879-7e021a2395e3",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#delete-and-recreate-your-pool-to-remove-a-deprecated-internal-component"
+    },
+    {
+        "Recommendation": "Delete and recreate your pool using a VM size that will soon be retired",
+        "Impact": "High",
+        "Category": "Batch",
+        "ResourceType": "microsoft.batch/batchaccounts",
+        "RecommendationID": "48ae14cb-10de-4bd9-a005-5c25f498649b",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#delete-and-recreate-your-pool-using-a-vm-size-that-will-soon-be-retired"
+    },
+    {
+        "Recommendation": "Upgrade to the latest API version to ensure your Batch account remains operational.",
+        "Impact": "High",
+        "Category": "Batch",
+        "ResourceType": "microsoft.batch/batchaccounts",
+        "RecommendationID": "bbc3f0f1-85b7-4bcb-b474-0e02571eb5fa",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#upgrade-to-the-latest-api-version-to-ensure-your-batch-account-remains-operational"
+    },
+    {
+        "Recommendation": "Migrate Azure CDN Standard from Microsoft (Classic) to Azure Front Door Standard/Premium tier",
+        "Impact": "Medium",
+        "Category": "Content Delivery Network",
+        "ResourceType": "microsoft.cdn/profiles",
+        "RecommendationID": "062d41f2-0dfa-48e0-a9b8-fb40fa5b001f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#migrate-azure-cdn-standard-from-microsoft-classic-to-azure-front-door-standardpremium-tier"
+    },
+    {
+        "Recommendation": "Create a backup of HSM",
+        "Impact": "Medium",
+        "Category": "Key Vault",
+        "ResourceType": "microsoft.keyvault/managedhsms",
+        "RecommendationID": "12278831-341f-4933-85e6-40560e4a3405",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#create-a-backup-of-hsm"
+    },
+    {
+        "Recommendation": "Media Services deprecation on June 30th 2024",
+        "Impact": "High",
+        "Category": "Media Services",
+        "ResourceType": "microsoft.media/mediaservices",
+        "RecommendationID": "107e13ec-4080-4666-9a0a-2ff0366cd1d7",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#media-services-deprecation-on-june-30th-2024"
+    },
+    {
+        "Recommendation": "Enable API specification static analysis to ensure compliance with your organization's API style guide.",
+        "Impact": "Medium",
+        "Category": "MICROSOFT.APICENTER",
+        "ResourceType": "microsoft.apicenter/services",
+        "RecommendationID": "b64191e1-69b1-4977-be74-284a0b1ff535",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-api-specification-static-analysis-to-ensure-compliance-with-your-organizations-api-style-guide"
+    },
+    {
+        "Recommendation": "Update API version for AKS Arc MetalLB load balancer",
+        "Impact": "Low",
+        "Category": "MICROSOFT.KUBERNETESRUNTIME",
+        "ResourceType": "microsoft.kubernetesruntime/bgppeers",
+        "RecommendationID": "ce5286f5-c9f5-423c-adfd-affa73f87975",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-api-version-for-aks-arc-metallb-load-balancer"
+    },
+    {
+        "Recommendation": "Update API version for AKS Arc MetalLB load balancer",
+        "Impact": "Low",
+        "Category": "MICROSOFT.KUBERNETESRUNTIME",
+        "ResourceType": "microsoft.kubernetesruntime/loadbalancers",
+        "RecommendationID": "5a16c1dc-0e24-4e39-b462-bea6f1b0745e",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-api-version-for-aks-arc-metallb-load-balancer-1"
+    },
+    {
+        "Recommendation": "Modernize SQL Server on Azure VM to SQL Managed Instance",
+        "Impact": "High",
+        "Category": "SQL Server on Azure Virtual Machines",
+        "ResourceType": "microsoft.sqlvirtualmachine/sqlvirtualmachines",
+        "RecommendationID": "23b9b84a-7e9d-41cf-9a26-494d7cd1d9fa",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#modernize-sql-server-on-azure-vm-to-sql-managed-instance"
+    },
+    {
+        "Recommendation": "Install SQL best practices assessment on your SQL VM",
+        "Impact": "Medium",
+        "Category": "SQL Server on Azure Virtual Machines",
+        "ResourceType": "microsoft.sqlvirtualmachine/sqlvirtualmachines",
+        "RecommendationID": "9e0a4a67-45b6-408b-b766-6c4822fca2ec",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#install-sql-best-practices-assessment-on-your-sql-vm"
+    },
+    {
+        "Recommendation": "Prevent hitting subscription limit for maximum storage accounts",
+        "Impact": "High",
+        "Category": "Storage",
+        "ResourceType": "microsoft.storage/storageaccounts",
+        "RecommendationID": "a0ad4f8c-f904-4b11-955d-e0044473c5fa",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#prevent-hitting-subscription-limit-for-maximum-storage-accounts"
+    },
+    {
+        "Recommendation": "Update to newer releases of the Storage Java v12 SDK for better reliability.",
+        "Impact": "High",
+        "Category": "Storage",
+        "ResourceType": "microsoft.storage/storageaccounts",
+        "RecommendationID": "3c374434-42e7-44db-8b0b-5b8ed970114b",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#update-to-newer-releases-of-the-storage-java-v12-sdk-for-better-reliability"
+    },
+    {
+        "Recommendation": "Set up staging environments in Azure App Service",
+        "Impact": "Low",
+        "Category": "Subscriptions",
+        "ResourceType": "microsoft.subscriptions/subscriptions",
+        "RecommendationID": "9c0c3708-17f6-4108-9aff-f0e052c3cd41",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-up-staging-environments-in-azure-app-service"
+    },
+    {
+        "Recommendation": "Subscription with more than 10 VNets should be managed using AVNM",
+        "Impact": "Medium",
+        "Category": "Subscriptions",
+        "ResourceType": "microsoft.subscriptions/subscriptions",
+        "RecommendationID": "a58fd47f-d7b9-49dc-b763-c511d8774639",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#subscription-with-more-than-10-vnets-should-be-managed-using-avnm"
+    },
+    {
+        "Recommendation": "In-Place Upgrade to Ubuntu Pro with zero downtime for Extended Security",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "4b25fc0f-b045-423b-a85a-241978696e36",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#in-place-upgrade-to-ubuntu-pro-with-zero-downtime-for-extended-security"
+    },
+    {
+        "Recommendation": "Enable Trusted Launch foundational excellence, and modern security for Existing Generation 2 VM(s)",
+        "Impact": "High",
+        "Category": "Virtual Machines",
+        "ResourceType": "microsoft.compute/virtualmachines",
+        "RecommendationID": "de7ddac0-29e6-4bff-a812-519d18184982",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#enable-trusted-launch-foundational-excellence-and-modern-security-for-existing-generation-2-vms"
+    },
+    {
+        "Recommendation": "Set the parameter net.ipv4.tcp_keepalive_time to '300' in the Application VM OS in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "aafa012d-9696-4f5b-8f72-ffa083d7040d",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_keepalive_time-to-300-in-the-application-vm-os-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Set the parameter net.ipv4.tcp_retries2 to '15' in the Application VM OS in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "797ce8ea-e16e-4b87-84da-fe3f3e872875",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_retries2-to-15-in-the-application-vm-os-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Set the parameter net.ipv4.tcp_keepalive_intvl to '75' in the Application VM OS in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "c7af38cf-0f55-4843-9b53-66d929a621ae",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_keepalive_intvl-to-75-in-the-application-vm-os-in-sap-workloads"
+    },
+    {
+        "Recommendation": "See the parameter net.ipv4.tcp_keepalive_probes to '9' in the Application VM OS in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "2fc002b9-ad07-40f0-8418-a6f3ef928499",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#see-the-parameter-netipv4tcp_keepalive_probes-to-9-in-the-application-vm-os-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Set the parameter net.ipv4.tcp_tw_recycle to '0' in the Application VM OS in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "9e273e91-2876-4999-a7cf-7281bf7be031",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_tw_recycle-to-0-in-the-application-vm-os-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Set the parameter net.ipv4.tcp_tw_reuse to '0' in the Application VM OS in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "528d066a-8652-479e-8eec-92d41174210f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_tw_reuse-to-0-in-the-application-vm-os-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Set the parameter net.ipv4.tcp_retries1 to '3' in the Application VM OS in SAP workloads",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "1a778001-f50a-4e08-a03d-ed2e40f4cc15",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#set-the-parameter-netipv4tcp_retries1-to-3-in-the-application-vm-os-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Ensure the Operating system in App VM is supported in combination with DB type in your SAP workload",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "15ab1e61-048c-47e0-9e10-fa55762efd49",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-app-vm-is-supported-in-combination-with-db-type-in-your-sap-workload"
+    },
+    {
+        "Recommendation": "Disable fstrim in SLES OS to avoid XFS metadata corruption in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "cbb610fd-5caf-445e-943b-8175c77f1118",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Ensure Accelerated Networking is enabled on all NICs for improved performance of SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "fad6ef33-8ee0-4b11-b6b9-27c927a6d06d",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-accelerated-networking-is-enabled-on-all-nics-for-improved-performance-of-sap-workloads"
+    },
+    {
+        "Recommendation": "VM not certified! For better performance and support, ensure that VM is Certified for SAP on Azure",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/applicationinstances",
+        "RecommendationID": "a0609b82-7756-11ec-8827-7c50798c1d82",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#vm-not-certified-for-better-performance-and-support-ensure-that-vm-is-certified-for-sap-on-azure"
+    },
+    {
+        "Recommendation": "Ensure the Operating system in ASCS VM is supported in combination with DB type in your SAP workload",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "b07e6fcd-1741-477a-b8f0-0bf90c1aef10",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-ascs-vm-is-supported-in-combination-with-db-type-in-your-sap-workload"
+    },
+    {
+        "Recommendation": "Disable fstrim in SLES OS to avoid XFS metadata corruption in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "4c3cfb18-c43f-42e5-8814-552b86bac6ff",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads-1"
+    },
+    {
+        "Recommendation": "Ensure Accelerated Networking is enabled on all NICs for improved performance of SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "7f921999-e9e3-4193-8b77-10382beb4dc9",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-accelerated-networking-is-enabled-on-all-nics-for-improved-performance-of-sap-workloads-1"
+    },
+    {
+        "Recommendation": "VM not certified! For better performance and support, ensure that VM is Certified for SAP on Azure",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/centralinstances",
+        "RecommendationID": "2435ce38-ad73-4d5e-ab40-8e508f915796",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#vm-not-certified-for-better-performance-and-support-ensure-that-vm-is-certified-for-sap-on-azure-1"
+    },
+    {
+        "Recommendation": "Adjust Linux kernel semaphore settings for better performance and reliability of SAP",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "78a6427a-8307-4077-9503-50258fc03798",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#adjust-linux-kernel-semaphore-settings-for-better-performance-and-reliability-of-sap"
+    },
+    {
+        "Recommendation": "Adjust VM swappiness linux kernel parameter for better reliability of SAP with DB2 database",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "0fa90566-e286-44d4-9dad-9c0cad0cf8ee",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#adjust-vm-swappiness-linux-kernel-parameter-for-better-reliability-of-sap-with-db2-database"
+    },
+    {
+        "Recommendation": "Adjust VM overcommit memory linux kernel parameter for better reliability of SAP with DB2 database",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "7fa5b5cb-1839-4d0f-9ac6-b6e45959c3a6",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#adjust-vm-overcommit-memory-linux-kernel-parameter-for-better-reliability-of-sap-with-db2-database"
+    },
+    {
+        "Recommendation": "Adjust randomize VA space linux kernel parameter for better security of SAP on DB2 database",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "f632b889-88b5-4bf6-adb0-c1c65bd4ba55",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#adjust-randomize-va-space-linux-kernel-parameter-for-better-security-of-sap-on-db2-database"
+    },
+    {
+        "Recommendation": "Adjust Linux kernel semaphore settings for better performance and reliability of SAP",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "13a8f39c-7d65-4008-8be2-3e8520f0ac2b",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#adjust-linux-kernel-semaphore-settings-for-better-performance-and-reliability-of-sap-1"
+    },
+    {
+        "Recommendation": "Ensure the HANA DB VM type supports the HANA scenario in your SAP workload",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "cd3d9525-7315-42af-a005-a61aea23d20c",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-hana-db-vm-type-supports-the-hana-scenario-in-your-sap-workload"
+    },
+    {
+        "Recommendation": "Ensure the Operating system in DB VM is supported for the DB type in your SAP workload",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "083322ac-d997-414e-a6bd-f01187204ab6",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-the-operating-system-in-db-vm-is-supported-for-the-db-type-in-your-sap-workload"
+    },
+    {
+        "Recommendation": "Disable fstrim in SLES OS to avoid XFS metadata corruption in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "c61597cf-c7b2-4f9c-bbd0-49fb4762278c",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#disable-fstrim-in-sles-os-to-avoid-xfs-metadata-corruption-in-sap-workloads-2"
+    },
+    {
+        "Recommendation": "For better performance and support, ensure HANA data filesystem type is supported for HANA DB",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "63d8c4d5-b717-44d9-88e1-ca8082e12a1c",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-data-filesystem-type-is-supported-for-hana-db"
+    },
+    {
+        "Recommendation": "For better performance and support, ensure HANA log filesystem type is supported for HANA DB",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "70cec929-4e06-4334-ab73-15c48fb4dc6f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-log-filesystem-type-is-supported-for-hana-db"
+    },
+    {
+        "Recommendation": "For better performance and support, ensure HANA shared filesystem type is supported for HANA DB",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "f8fece56-6392-4ee9-b9c1-9bafd056037f",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#for-better-performance-and-support-ensure-hana-shared-filesystem-type-is-supported-for-hana-db"
+    },
+    {
+        "Recommendation": "Optimize network configuration for improved internal HANA communication in SAP workloads",
+        "Impact": "Low",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "b081afb7-0106-4b69-8bc6-9f9ea1e57728",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#optimize-network-configuration-for-improved-internal-hana-communication-in-sap-workloads"
+    },
+    {
+        "Recommendation": "To avoid performance regressions, swap space on HANA systems should be 2GB in SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "416eefce-4efb-4219-8876-c11f51e81365",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#to-avoid-performance-regressions-swap-space-on-hana-systems-should-be-2gb-in-sap-workloads"
+    },
+    {
+        "Recommendation": "Ensure Accelerated Networking is enabled on all NICs for improved performance of SAP workloads",
+        "Impact": "High",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "a742dd2f-a022-45a2-8948-6741b460c461",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#ensure-accelerated-networking-is-enabled-on-all-nics-for-improved-performance-of-sap-workloads-2"
+    },
+    {
+        "Recommendation": "VM not certified! For better performance and support, ensure that VM is Certified for SAP on Azure",
+        "Impact": "Medium",
+        "Category": "Workloads",
+        "ResourceType": "microsoft.workloads/sapvirtualinstances/databaseinstances",
+        "RecommendationID": "a07aa063-45a8-4538-9bd5-41f4a8abff4b",
+        "Url": "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-operational-excellence-recommendations#vm-not-certified-for-better-performance-and-support-ensure-that-vm-is-certified-for-sap-on-azure-2"
+    }
+]

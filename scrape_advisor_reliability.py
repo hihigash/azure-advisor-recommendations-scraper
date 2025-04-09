@@ -5,7 +5,7 @@ import sys
 
 def fetch_page(url):
     """
-    指定された URL から HTML コンテンツを取得する
+    Fetch HTML content from the specified URL
     """
     try:
         response = requests.get(url)
@@ -17,65 +17,67 @@ def fetch_page(url):
 
 def parse_html(html):
     """
-    ページのメインコンテンツから見出しや段落をもとに推奨事項データを抽出する
-    ・h2 タグ: カテゴリ情報として利用 (current_category)
-    ・h4 タグ: Recommendation (推奨事項タイトル)
-      ※ タイトルが "Share via" のものは除外する
-    ・h4 タグ直後の p タグ: Impact, ResourceType, Recommendation ID の各情報を抽出
-         p タグ内は <br> タグで改行されていることを想定して分割する
-    current_category が未設定の場合は、そのレコードをスキップする
+    Extract recommendation data from the page's main content based on headings and paragraphs
+    - h2 tags: Used as category information (current_category)
+    - h4 tags: Recommendation title (excluding titles like "Share via")
+    - p tags after h4: Extract Impact, ResourceType, and Recommendation ID
+      Assuming p tags contain content separated by <br> tags
+    Skip records where current_category is not set
     """
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, 'html5lib')
     recommendations = []
 
-    # ページのメインコンテンツを取得（主に article、main タグをチェック）
-    content = soup.find('article')
-    if not content:
-        content = soup.find('main')
-    if not content:
-        content = soup
+    # Get the main content of the page (checking article, main tags)
+    content = soup.find('article') or soup.find('main') or soup
 
-    current_category = ""  # h2 タグで更新されるカテゴリ
-    # コンテンツ内の h2, h4, p 要素をドキュメント順にループ
-    for element in content.find_all(['h2', 'h4', 'p']):
+    current_category = ""  # Category updated by h2 tags
+    for element in content.find_all(['h2', 'h4']):
         if element.name == 'h2':
-            # h2 をカテゴリ情報として利用
             current_category = element.get_text(strip=True)
         elif element.name == 'h4':
             recommendation_title = element.get_text(strip=True)
-            # "Share via" は除外する（大文字小文字を区別しない）
             if recommendation_title.strip().lower() == "share via":
                 continue
 
+            id = element.get('id')
+            base_url = "https://learn.microsoft.com/en-us/azure/advisor/advisor-reference-reliability-recommendations"
+            url = f"{base_url}#{id}" if id else ""
+
+            # Use empty string if URL is not found
             details = {
                 "Recommendation": recommendation_title,
                 "Impact": "",
                 "Category": current_category,
                 "ResourceType": "",
-                "RecommendationID": ""
+                "RecommendationID": "",
+                "Url": url
             }
-            # h4 の直後の要素から情報を抽出する
+            
+            # Extract information from elements after h4
             sibling = element.find_next_sibling()
             while sibling and sibling.name not in ['h2', 'h4']:
                 if sibling.name == "p":
                     text = sibling.get_text(strip=True)
                     if text.startswith("Impact:"):
                         details["Impact"] = text.replace("Impact:", "").strip()
-                    if text.startswith("ResourceType:"):
-                        lines = sibling.get_text(separator="\n", strip=True).split("\n")
-                        for line in lines:
-                            l = line.strip()
-                            if l.lower().startswith("resourcetype:"):
-                                details["ResourceType"] = l[len("resourcetype:"):].strip()
-                            elif l.lower().startswith("recommendation id:"):
-                                details["RecommendationID"] = l[len("recommendation id:"):].strip()
+                    
+                    lines = sibling.get_text(separator="\n", strip=True).split("\n")
+                    for line in lines:
+                        l = line.strip().lower()
+                        if l.startswith("resourcetype:"):
+                            details["ResourceType"] = line[len("resourcetype:"):].strip()
+                        elif l.startswith("recommendation id:"):
+                            details["RecommendationID"] = line[len("recommendation id:"):].strip()
+                
                 sibling = sibling.find_next_sibling()
+            
             recommendations.append(details)
+    
     return recommendations
 
 def save_to_json(data, filename):
     """
-    抽出したデータを JSON ファイルとして保存する
+    Save extracted data as a JSON file
     """
     try:
         with open(filename, 'w', encoding='utf-8') as f:
@@ -95,7 +97,7 @@ def main():
         print("No recommendations found. Exiting.", file=sys.stderr)
         sys.exit(1)
 
-    filename = "azure_advisor_recommendations_reliability.json"
+    filename = "azure_advisor_reliability_recommendations.json"
     save_to_json(recommendations, filename)
 
 if __name__ == '__main__':
